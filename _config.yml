@@ -1,13 +1,13 @@
 # Site wide configuration
 
-title:            Site Title
+title:            electronut.in
 locale:           en_US
 url:              http://localhost:4000
 
 
 # Jekyll configuration
 
-permalink:   /:categories/:title/
+permalink:   /:title/
 markdown:    kramdown
 highlighter: pygments
 sass:
@@ -26,12 +26,14 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
-  disqus-shortname: 
-  twitter: #username
+  name: Mahesh Venkitachalam
+  avatar: portrait-Nov2014.jpg
+  bio: "Programmer/Electronics Hacker/Photographer/Writer from Bangalore."
+  email: info@electronut.in
+  disqus-shortname: electronutin
+  twitter: electronutIN
+  github: electronut
+  flickr: tat-tvam-asi  
   facebook: #username
   google:
     plus: #username
@@ -40,7 +42,6 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username

@@ -1,0 +1,148 @@
+---
+layout: page
+title: Python Playground
+tags: [book]
+image:
+  feature: header-2014-2.jpg
+---
+<p><a href="http://electronut.in/wp-content/uploads/2014/07/pythonplay_cover-front1.png"><img src="assets/pythonplay_cover-front1-226x300.png" alt="pythonplay_cover-front" width="226" height="300" class="alignnone size-medium wp-image-898" /></a></p>
+<p><em>Coming Feb 2015</em></p>
+<hr />
+I am happy to announce the release of my book <strong>Python Playground</strong> published by No Starch Press, USA. It's a fun romp through Python, applying the language to a number of interesting projects that include a <em>Boids</em> simulation, an OpenGL based <em>volume renderer</em>, and an <em>autostereogram</em> generator. It also has a few hardware projects that use the Arduino microcontroller platform and the tiny Raspberry Pi computer. I hope you check it out!</p>
+<p>I will keep this page updated with information related to the book. Here are some quick links for busy people:</p>
+<ul>
+<li>
+<a href="#nostarch">Official webpage for the book</a>
+</li>
+<li>
+<a href="#buy">Purchasing the book</a>
+</li>
+<li>
+<a href="#help">Getting help on book content.</a>
+</li>
+<li>
+<a href="#code">Installing Source Code for the Book's Projects</a>
+</li>
+<li>
+<a href="#instWin">Installation Notes for Windows</a>
+</li>
+<li>
+<a href="#instOSX">Installation Notes for OS X</a>
+</li>
+<li>
+<a href="#instLinux">Installation Notes for Linux</a>
+</li>
+</ul>
+<hr />
+<h2 id="nostarch">Official webpage for the book</h2>
+<p>Here is the official webpage for the book, from the good folks at <em>No Starch Press</em>:<br />
+<a href=" http://www.nostarch.com/pythonplayground"><br />
+http://www.nostarch.com/pythonplayground</a></p>
+<hr />
+<h2 id="buy">Purchasing the book</h2>
+<p><strong>Purchase from Amazon.com:<br />
+</strong></p>
+<p><a href="http://www.amazon.com/Python-Playground-Weekend-Projects-Programmer/dp/1593276044/ref=sr_1_1?ie=UTF8&qid=1416621772&sr=8-1&keywords=python+playground">http://www.amazon.com/Python-Playground-Weekend-Projects-Programmer/dp/1593276044/ref=sr_1_1?ie=UTF8&qid=1416621772&sr=8-1&keywords=python+playground</a></p>
+<hr />
+<h2 id="help">Getting Help on Book Content</h2>
+<p>Please email me at <a href="mailto:info@electronut.in">info@electronut.in</a> for any questions on the book. You can follow me on Twitter to get latest updates on the book, as well as my other hardware and software projects:</p>
+<p><a href="https://twitter.com/electronutIN" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @electronutIN</a><br />
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
+<hr />
+<h2 id="code">Installing Source Code for the Book's Projects</h2>
+<p>You can download source code for the book's project from the link below:</p>
+<p><a href="https://github.com/electronut/pp">https://github.com/electronut/pp</a></p>
+<p>Use the “Download ZIP” option the the above link to retrieve the code. Once you get the code you need to add the common folder to your <code>PYTHONPATH</code> environment variable so that modules that use these common python files can find them. On Windows, you can do this by creating a <code>PYTHONPATH</code> environment variable, or adding to one if it already exists. On OS X, you can add the following line to your <code>.profile</code> file (Create one if needed.) in your home directory.</p>
+<p><code>export PYTHONPATH=path_to_common_folder:$PYTHONPATH<br />
+</code></p>
+<p>Linux users can do something similar to OS X, in their <code>.bashrc</code> or <code>.bash_profile</code>, as appropriate.</p>
+<hr />
+<h2 id="instWin">Installation Notes for Windows </h2>
+<p>First, you need to install Python.</p>
+<h3>Installing Python</h3>
+<p>You can download and install Python from the website below. </p>
+<p><a href="https://www.python.org/download">https://www.python.org/download<br />
+</a></p>
+<h3>Installing GLFW</h3>
+<p>For the OpenGL based 3D graphics projects in this book, you need the GLFW library. You can install it from here. </p>
+<p><a href="http://www.glfw.org/download.html">http://www.glfw.org/download.html<br />
+</a></p>
+<p>On Windows, after you install GLFW, set a GLFW_LIBRARY environment variable to the full path of the installed glfw3.dll. It will look something like “C:\glfw-3.0.4.bin.WIN32\lib-msvc120\glfw3.dll”. This is needed so that our python binding for GLFW can find this library. To use GLFW with python, we use a module called pyglfw, which consists of a single python file glfw.py. You don't need to install it, as we are distributing it with the source code for the book, and it will be found in the common directory. But just in case you need to install a more recent version, here is the source:</p>
+<p><a href="https://github.com/rougier/pyglfw">https://github.com/rougier/pyglfw</a></p>
+<p>You also need to ensure that your graphics card drivers on your computer are installed. This is good thing in general, since many software programs (especially) games make use of the GPU. </p>
+<h3>Installing Pre-Built Binaries</h3>
+<p>The simplest path to installation on Windows is to get pre-built binaries. I am listing below the links for each module. Download the appropriate installers (python 2.7, 32/64 bit) for each. Depending on your Windows setup, you may need to run these installers with administrator privileges.</p>
+<p><strong>pyaudio<br />
+</strong><br />
+<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio">http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio<br />
+</a></p>
+<p><strong>pyserial<br />
+</strong><br />
+<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyserial">http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyserial<br />
+</a></p>
+<p><strong>scipy</strong><br />
+<a href="http://sourceforge.net/projects/scipy/files/scipy/">http://sourceforge.net/projects/scipy/files/scipy/</a></p>
+<p><strong>numpy</strong><br />
+<a href="http://sourceforge.net/projects/numpy/files/NumPy/">http://sourceforge.net/projects/numpy/files/NumPy/</a></p>
+<p><strong>pygame</strong><br />
+<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#pygame">http://www.lfd.uci.edu/~gohlke/pythonlibs/#pygame</a></p>
+<p><strong>pillow</strong><br />
+<a href="https://pypi.python.org/pypi/Pillow/2.5.0#downloads">https://pypi.python.org/pypi/Pillow/2.5.0#downloads</a></p>
+<p><strong>pyopengl</strong><br />
+<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyopengl">http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyopengl</a></p>
+<p><strong>matplotlib</strong><br />
+<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#matplotlib">http://www.lfd.uci.edu/~gohlke/pythonlibs/#matplotlib</a></p>
+<p><code>matplotlib</code> depends on <code>dateutil</code>, <code>pytz</code>, <code>pyparsing</code> and <code>six</code>, and you can get them from the links below.</p>
+<p><strong>dateutil</strong><br />
+<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#python-dateutil">http://www.lfd.uci.edu/~gohlke/pythonlibs/#python-dateutil<br />
+</a></p>
+<p><strong>pytz</strong><br />
+<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#pytz">http://www.lfd.uci.edu/~gohlke/pythonlibs/#pytz</a></p>
+<p><strong>pyparsing</strong><br />
+<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyparsing">http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyparsing</a></p>
+<p><strong>six</strong><br />
+<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#six">http://www.lfd.uci.edu/~gohlke/pythonlibs/#six</a></p>
+<h3>Other Options</h3>
+<p>You can also <a href="http://stackoverflow.com/questions/101061/building-python-c-extension-modules-for-windows">build all the required packages</a> yourself on Windows by installing the appropriate compilers. Another option is to <a href="http://www.scipy.org/install.html">install special Python distributions</a> which have most of these packages pre-installed. </p>
+<hr />
+<h2 id="instOSX">Installation Notes for OS X </h2>
+<p>Here are the recommended steps for installation on Apple OS X. </p>
+<h3>Install Xcode and MacPorts</h3>
+<p>The first step is to install Xcode. You can either get it through the App Store application, or if you are running an older version of the OS, you can get a compatible version of Xcode from the Apple developer website. Once you install Xcode, you need to ensure that you also have the command line tools installed. The next step is to install MacPorts. Please read <a href="http://guide.macports.org/#installing.xcode">the MacPorts guide</a> to help you with this process which has detailed instructions for doing both.</p>
+<h3>Install Modules</h3>
+<p>Once you have MacPorts installed, you can install the required modules for the book using the 'port' command in a Terminal. MacPorts installs its own version of Python, and it's simplest to just use that one for your projects. (OS X also comes built in with Python, but installations on top of it are fraught with problems and it's best left alone.)</p>
+<p>You can use the following command in a Terminal to check the versions of Python.</p>
+<p><code>$ port select --list python<br />
+</code></p>
+<p>In case you have multiple Python installations, you can make a particular version of Python active for MacPorts using the following command. (Here it's assumed you want to make python27 as the active one for installations.)</p>
+<p><code>$port select --set python python27<br />
+</code><br />
+Here is how you can install the required modules. Run these commands one by one in a Terminal.</p>
+<p><code><br />
+sudo port install py27-numpy<br />
+sudo port install py27-Pillow<br />
+sudo port install py27-matplotlib<br />
+sudo port install py27-opengl<br />
+sudo port install glfw<br />
+sudo port install py27-scipy<br />
+sudo port install py27-pyaudio<br />
+sudo port install py27-serial<br />
+sudo port install py27-game<br />
+</code></p>
+<p>MacPorts usually installs its Python in /opt/local/. You can ensure you get the right version of Python in the Terminal by setting the PATH environment variable in your .profile. Here is how I have it set up.</p>
+<p><code><br />
+PATH=/opt/local/Library/Frameworks/Python.framework/Versions/2.7/bin:$PATH<br />
+export PATH<br />
+</code></p>
+<hr />
+<h2 id="instLinux">Installation Notes for Linux </h2>
+<p>Linux usually comes built-in with all the development tools needed to build the required packages. On most Linux distributions, you should be able to uses <a href=" http://pip.readthedocs.org/en/latest/installing.html">pip</a> to get the required packages for the book. The common way to install a package using <code>pip</code> is as follows:</p>
+<p><code><br />
+sudo pip install matplotlib<br />
+</code></p>
+<p>Once you install <code>pip</code> using the above link, you will also be able to build any of the required packages using the source by running the following command in the source directory.</p>
+<p><code><br />
+sudo python setup.py install<br />
+</code></p>
+<hr />
+<p><iframe id="forum_embed" src="https://groups.google.com/forum/embed/?place=forum/python-playground-book#!forum/python-playground-book" scrolling="no" frameborder="0" width="100%" height="700"></iframe></p>

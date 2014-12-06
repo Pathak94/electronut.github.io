@@ -1,0 +1,32 @@
+---
+layout: post
+title: Testing Hardware PWM on the Raspberry Pi Model A+
+date: 2014-11-22 20:27:17.000000000 +05:30
+categories:
+- Raspberry Pi
+tags:
+- hardware
+- model A+
+- PWM
+- Raspberry Pi
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '5'
+  _thumbnail_id: '906'
+author:
+  login: electronut
+  email: info@electronut.in
+  display_name: Chief Electronut
+  first_name: Chief Electronut
+  last_name: ''
+---
+<p><a href="http://electronut.in/wp-content/uploads/2014/11/rpi-a-pwm-test.jpg"><img src="assets/rpi-a-pwm-test-225x300.jpg" alt="rpi-a+-pwm-test" width="225" height="300" class="alignnone size-medium wp-image-906" /></a></p>
+<p>The <a href="http://electronut.in/the-raspberry-pi-model-a/" title="The Raspberry Pi Model A+">new $20 Raspberry Pi Model A+</a> has the same pin-out as the Model B+, which means it has two hardware <a href="http://en.wikipedia.org/wiki/Pulse-width_modulation">PWM</a> pins exposed.<!--more--></p>
+<p>These pins are GPIO18 and GPIO13 (BCM pin numbering). This is great news, and I wanted to test it out. So I used Python and <a href="http://wiringpi.com/">wiringPi</a> to generate PWM on these pins, and hooked them up to my oscilloscope. As you can see from the above photo, PWM0 (red) is at 25% duty cycle and PWM1 (yellow) is at 75% duty cycle.</p>
+<p>Now, onward to control some servos!</p>
+<p>Here is the code:</p>
+<p><script src="https://gist.github.com/electronut/191e3cc6225c40570221.js"></script></p>
+<p><a href="https://twitter.com/electronutIN" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @electronutIN</a><br />
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
