@@ -2,8 +2,8 @@
 
 title:            electronut.in
 locale:           en_US
-url:              http://localhost:4000
-
+#url:              http://localhost:4000
+url:              http://electronut.in
 
 # Jekyll configuration
 
