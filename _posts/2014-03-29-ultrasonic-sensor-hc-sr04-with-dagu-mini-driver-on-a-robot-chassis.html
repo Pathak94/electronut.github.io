@@ -16,21 +16,24 @@ published: true
 meta:
   _edit_last: '5'
   _wpas_done_all: '1'
-author:
-  login: electronut
-  email: info@electronut.in
-  display_name: Chief Electronut
-  first_name: Chief Electronut
-  last_name: ''
+image:
+  feature: header.jpg
 ---
-<p><a href="http://electronut.in/wp-content/uploads/2014/03/photo8.jpg"><img src="assets/photo8-300x287.jpg" alt="photo(8)" width="300" height="287" class="alignnone size-medium wp-image-584" /></a></p>
+<p style="padding: 20px;">
+<img src="{{ site.baseurl }}/images/2014/03/photo8.jpg" />
+</p>
+
 <p>I am working on a Raspberry Pi based robot, and recently acquired a <a href="https://www.dawnrobotics.co.uk/dagu-magician-2wd-robot-chassis/">Dagu chassis</a> and a <a href="http://www.dawnrobotics.co.uk/dagu-arduino-mini-driver-board/">Dagu Mini Driver</a> for this project. As soon as I had the mini driver hooked up and the wheels starts turning, I felt an irresistible urge ;-) to put an ultrasonic sensor on the chassis and have it roam around by itself. </p>
 <p><!--more--></p>
 <p>I've written about <a href="http://electronut.in/using-ultrasonic-distance-sensor-module-hc-sr04-with-an-arduino/" title="Using Ultrasonic Distance Sensor Module HC-SR04 with an Arduino">hooking up the inexpensive and fun Ultrasonic sensor HC-SR04</a> with an Arduino before. The wiring is the same - instead of a real Ardunio board, we're just using the Arduino compatible Dagu Mini driver here. You can see some details for this board at the link below. Unfortunately, they don't give you the full schematics.</p>
 <p><a href="http://www.dagurobot.com/goods.php?id=142">http://www.dagurobot.com/goods.php?id=142<br />
 </a></p>
 <p>As far as construction goes, the Dagu chassis is very easy to put together. It can, and in fact it was put together by a 9 year old. :-)</p>
-<p><a href="http://electronut.in/wp-content/uploads/2014/03/IMG_0597.jpg"><img src="assets/IMG_0597-300x199.jpg" alt="aryan-dagu" width="300" height="199" class="alignnone size-medium wp-image-593" /></a></p>
+
+<p style="padding: 20px;">
+<img src="{{ site.baseurl }}/images/2014/03/IMG_0597.jpg"/>
+</p>
+
 <p>Also as you can see, I've used very high tech Tie Wrap Technology to attach the sensor to the chassis. ;-)</p>
 <p>The motors and the board are powered by a <a href="http://www.amazon.com/Astro-Mini-Ultra-Compact-Lipstick-Sized-Smartphones/dp/B005X1Y7I2/ref=sr_1_1?ie=UTF8&qid=1396081202&sr=8-1&keywords=Anker%C2%AE+Astro+Mini+3000mAh">3000 mAh 1A Anker rechargeable battery </a>- good stuff!</p>
 <p>The programming part is quite simple. The main loop sends out a ping on the ultrasonic sensor. If it returns a distance less than a set threshold the wheels are made to stop and reverse. Then, the chassis is made to turn left by a bit, and this process repeats. This is a very simplistic algorithm, but you can modify it for more sophisticated behavior.</p>

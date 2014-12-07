@@ -15,19 +15,21 @@ type: post
 published: true
 meta:
   _edit_last: '5'
-author:
-  login: electronut
-  email: info@electronut.in
-  display_name: Chief Electronut
-  first_name: Chief Electronut
-  last_name: ''
+image:
+  feature: header.jpg
 ---
-<p><a href="http://electronut.in/wp-content/uploads/2014/06/Doc-15-06-14-6-34-pm.jpg"><img src="assets/Doc-15-06-14-6-34-pm-300x206.jpg" alt="DHT11-setup" width="300" height="206" class="alignnone size-medium wp-image-768" /></a></p>
+<p style="padding: 20px;">
+<img src="{{ site.baseurl }}/images/2014/06/Doc-15-06-14-6-34-pm.jpg"/>
+</p>
 <p>I am working on a "weather monitor" project that involves a Raspberry Pi taking to a DHT11 Humidity and Temperature sensor and serving up the collected data as a graph, over a web page. So, I wanted to first get an idea about how this sensor works.</p>
 <p>The DHT11 is designed to work with a microcontroller, but we can coax it to send data with a simple circuit, as shown above. </p>
 <p><!--more--></p>
 <p>The DHT11 data sheet says that if we pull the input line LOW for 18 ms, pull the line HIGH and wait for 20-40 us, the DHT11 should start transmitting data. Pulling the line LOW can be done by just pressing the button. Here's the oscilloscope output right after I press the push button. </p>
-<p><a href="http://electronut.in/wp-content/uploads/2014/06/photo.jpg"><img src="assets/photo-200x300.jpg" alt="DHT11-osc" width="200" height="300" class="alignnone size-medium wp-image-769" /></a></p>
+
+<p style="padding: 20px;">
+<img src="{{ site.baseurl }}/images/2014/06/photo.jpg"/>
+</p>
+
 <p>Just like the data sheet said, 80 us LOW, 80 us HIGH, followed by 40 bits of data. The HIGH bits are 70 us long, and the LOW bits are 26-28 us long. Writing this bit stream out on a piece of paper, I got:</p>
 <p><code>00110111 00000000 00011010 00000000 01010001<br />
 </code></p>

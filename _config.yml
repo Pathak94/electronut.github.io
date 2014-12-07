@@ -27,13 +27,13 @@ kramdown:
 # Site owner
 owner:
   name: Mahesh Venkitachalam
-  avatar: portrait-Nov2014.jpg
+  avatar: portrait.jpg
   bio: "Programmer/Electronics Hacker/Photographer/Writer from Bangalore."
   email: info@electronut.in
   disqus-shortname: electronutin
   twitter: electronutIN
   github: electronut
-  flickr: tat-tvam-asi  
+  flickr: tat-tvam-asi
   facebook: #username
   google:
     plus: #username

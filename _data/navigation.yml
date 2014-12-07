@@ -1,10 +1,11 @@
 # Site navigation links
 
-- title: About
-  url: /about/
+- title: All Posts
+  url: /posts/
 
 - title: Book
   url: /pp/
 
-- title: All Posts
-  url: /posts/
+- title: About
+  url: /about/
+
