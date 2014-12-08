@@ -27,27 +27,32 @@ meta:
   _cc_page_slider_cat: a:0:{}
   _thumbnail_id: '439'
   _wpas_done_all: '1'
-author:
-  login: electronut
-  email: info@electronut.in
-  display_name: Chief Electronut
-  first_name: Chief Electronut
-  last_name: ''
+image:
+  feature: header.jpg
 ---
 <p>This is a short post on setting up the Raspberry Pi (RPi) for development for the first time.</p>
 <p>Being that the RPi is a full-fledged mini computer, it seems prudent to get a case rather than sticking wires all over it. Here's a case that I picked up from ebay:</p>
-<p><!--more--></p>
-<p><a href="http://electronut.in/wp-content/uploads/2013/06/IMG_1534.jpg"><img src="assets/IMG_1534.jpg" alt="RPi case" width="800" height="590" class="alignnone size-full wp-image-441" /></a></p>
+<p style="padding: 20px;">
+<img src="{{ site.baseurl }}/images/2013/06/IMG_1534.jpg" />
+</p>
 <p>It's also very helpful to get a power adapter. This one's from Samsung (5V, 700 mA) and connects to the micro USB port:</p>
-<p><a href="http://electronut.in/wp-content/uploads/2013/06/IMG_1564.jpg"><img src="assets/IMG_1564.jpg" alt="RPi power adapter" width="600" height="800" class="alignnone size-full wp-image-436" /></a></p>
+<p style="padding: 20px;">
+<img src="{{ site.baseurl }}/images/2013/06/IMG_1564.jpg"/>
+</p>
 <p>Next, you need to install an Operating System for your RPi. What you do is to download the latest "Wheezy" from the RPi official site, and write that image on to an SD card. Here is a nice video that will help you with this part:</p>
 <p><iframe width="560" height="315" src="http://www.youtube.com/embed/lG7BeR19YHc" frameborder="0" allowfullscreen></iframe></p>
 <p>For the first-time setup, it is nice to have a keyboard and mouse. I got this wireless keyboard with built-in trackpad for this purpose, and it was plug & play installation with Wheezy.</p>
-<p><a href="http://electronut.in/wp-content/uploads/2013/06/IMG_1562.jpg"><img src="assets/IMG_1562.jpg" alt="RPi wireless keyboard" width="800" height="600" class="alignnone size-full wp-image-438" /></a></p>
+<p style="padding: 20px;">
+<img src="{{ site.baseurl }}/images/2013/06/IMG_1562.jpg" />
+</p>
 <p>Internet is the next priority, and this USB WiFi adapter works great:</p>
-<p><a href="http://electronut.in/wp-content/uploads/2013/06/IMG_1563.jpg"><img src="assets/IMG_1563.jpg" alt="RPi WiFi adapter" width="600" height="800" class="alignnone size-full wp-image-437" /></a></p>
+<p style="padding: 20px;">
+<img src="{{ site.baseurl }}/images/2013/06/IMG_1563.jpg"/>
+</p>
 <p>You can use your TV as the RPi monitor, as long as it has an HDMI cable. Here's the my RPi connected to the TV:</p>
-<p><a href="http://electronut.in/wp-content/uploads/2013/06/IMG_1553.jpg"><img src="assets/IMG_1553.jpg" alt="RPi TV" width="800" height="598" class="alignnone size-full wp-image-444" /></a></p>
+<p style="padding: 20px;">
+<img src="{{ site.baseurl }}/images/2013/06/IMG_1553.jpg"/>
+</p>
 <p>The first thing I need for RPi development is to have remote access to it. I don't want to sit in front of my TV and use a miniature keyboard to do coding. So the next thing is to set up <strong>ssh</strong> on the Pi so I can remote login. For this, we need to get a static IP setup for the Pi. You can read more about this here:</p>
 <p><a href="http://elinux.org/RPi_Remote_Access">http://elinux.org/RPi_Remote_Access<br />
 </a></p>

@@ -29,12 +29,8 @@ meta:
   _edit_last: '5'
   _cc_post_template_type: img-left-content-right
   _wpas_done_all: '1'
-author:
-  login: electronut
-  email: info@electronut.in
-  display_name: Chief Electronut
-  first_name: Chief Electronut
-  last_name: ''
+image:
+  feature: header.jpg
 ---
 <p><iframe width="560" height="315" src="//www.youtube.com/embed/7vckzlMZZq4?rel=0" frameborder="0" allowfullscreen></iframe></p>
 <p>I have a couple of servos on a pan/tilt bracket that I want to control from my Raspberry Pi. As I started looking at options, I read about the <a href="http://www.adafruit.com/products/815">Adafruit 16-channel servo driver</a>. This board is not available where I live, and I got curious about chips that generate PWM signals that could be configured via the I2C protocol. I found a cheap one (less than 2 USD) on element14 - the <a href="http://www.onsemi.com/PowerSolutions/product.do?id=CAT9532">CAT9532 16-bit Programmable LED Dimmer chip</a> from Catalyst Semiconductor.</p>
@@ -45,7 +41,9 @@ author:
 <p>But luckily, the CAT9532 does not use a REPEATED START, which means we can use Python + smbus to communicate with it. </p>
 <p>Looking at the datasheet, the CAT9532 has 10 registers, 2 read-only and 9 read/write, which can be used to set the frequency, duty cycle, and on/off state of 16 LED pins. The base address of the chip is 0x60, but you can use 3 more pins (3 more bits) to modify it.</p>
 <p>This is what the chip looks like in its SOIC-24 package. I used a DIP adapter PCB so I could use it on a breadboard.</p>
-<p><a href="http://electronut.in/wp-content/uploads/2013/06/IMG_1600.jpg"><img src="assets/IMG_1600.jpg" alt="CAT9532" width="800" height="530" class="alignnone size-full wp-image-478" /></a></p>
+<p style="padding: 10px;">
+<img src="{{ site.baseurl }}/images/2013/06/IMG_1600.jpg"/>
+</p>
 <p>My goals here are:</p>
 <ol>
 <li>
@@ -74,7 +72,9 @@ LED8 pin to 270 ohms to Green LED(-), LED(+) to +5V on Pi.
 </li>
 </ol>
 <p>This is what the full setup looks like:</p>
-<p><a href="http://electronut.in/wp-content/uploads/2013/06/IMG_1613.jpg"><img src="assets/IMG_1613.jpg" alt="RPi-cat9532" width="800" height="658" class="alignnone size-full wp-image-479" /></a></p>
+<p style="padding: 20px;">
+<img src="{{ site.baseurl }}/images/2013/06/IMG_1613.jpg"/>
+</p>
 <p>The full Python source is below. Run it from the Pi as:</p>
 <p><code>sudo python rpi-cat9532.py<br />
 </code></p>

@@ -33,34 +33,22 @@ meta:
   _cc_post_template_type: img-left-content-right
   _thumbnail_id: '271'
   _wpas_done_all: '1'
-author:
-  login: electronut
-  email: info@electronut.in
-  display_name: Chief Electronut
-  first_name: Chief Electronut
-  last_name: ''
+image:
+  feature: header.jpg
 ---
 <p>Most times your microcontroller is running in a loop, waiting for something to happen - like a button press. All this while it is consuming power, and this could be an issue, especially if you are running the circuit from a battery. To counter this problem, there are ways of reducing the power consumption of your chip. Here are the various "sleep modes" supported by the ATmega168. </p>
 <p>[Table reproduced from Atmel ATmega168 datasheet for illustrative purpose]</p>
-<p><a href="http://electronut.in/wp-content/uploads/2013/05/ATmega168-sleep-modes.png"><img src="assets/ATmega168-sleep-modes.png" alt="ATmega168-sleep-modes" width="634" height="365" class="alignnone size-full wp-image-257" /></a></p>
+<p><img style="padding: 20px;" src="{{ site.baseurl }}/images/2013/05/ATmega168-sleep-modes.png"/></p>
 <p>In a previous post about an <a href="http://electronut.in/ambient-light-sensor-using-an-op-amp-comparator/">Ambient Light sensor using an Op-Amp Comparator</a>, I mentioned that we would be using the op-amp output to "wake up" an ATmega168. So here, we will be using the "power-save" mode from the above table, and use a pin-change interrupt to wake up from this sleep mode.</p>
 <p>The setup used is shown below in the 2 schematics I had posted before. The output Vo from the op-amp should be connected to the pin 14 of the ATmega168 (PCINT0/PB0). Also, in this case, we are not using serial output, so you can remove the connections to the FTDI adapter. </p>
 <p><!-- insert table here--></p>
-<table>
-<tr>
-<td>
-<a href="http://electronut.in/wp-content/uploads/2013/05/IMG_1415.jpg"><img src="assets/IMG_1415-300x210.jpg" alt="IMG_1415" width="300" height="210" class="alignnone size-medium wp-image-189" /></a>
-</td>
-<td>
-</td>
-<td>
-<a href="http://electronut.in/wp-content/uploads/2013/05/IMG_1412.jpg"><img src="assets/IMG_1412-300x274.jpg" alt="IMG_1412" width="300" height="274" class="alignnone size-medium wp-image-131" /></a>
-</td>
-</tr>
-</table>
+<img style="padding: 20px;" src="{{ site.baseurl }}/images/2013/05/IMG_1415.jpg"/>
+<br/>
+<img style="padding: 20px;" src="{{ site.baseurl }}/images/2013/05/IMG_1412.jpg"/>
+<br/>
 <p><!-- end table here--></p>
 <p>Here is what the circuit looks like, hooked up on a breadboard:</p>
-<p><a href="http://electronut.in/wp-content/uploads/2013/05/IMG_1451.jpg"><img src="assets/IMG_1451.jpg" alt="ATmega168-power-save-breadboard" width="800" height="504" class="alignnone size-full wp-image-271" /></a></p>
+<p><img style="padding: 20px;" src="{{ site.baseurl }}/images/2013/05/IMG_1451.jpg"/></p>
 <p>This is the how the program works:</p>
 <p><!-- begin list --></p>
 <ul>

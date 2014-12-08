@@ -28,12 +28,8 @@ meta:
   _cc_post_template_type: img-left-content-right
   _thumbnail_id: '281'
   _wpas_done_all: '1'
-author:
-  login: electronut
-  email: info@electronut.in
-  display_name: Chief Electronut
-  first_name: Chief Electronut
-  last_name: ''
+image:
+  feature: header.jpg
 ---
 <p>I just got hold of an HC-SR04 Ultrasonic Sensor Module. This is a short post on hooking it up to an Arduino Uno and getting distance information from it.</p>
 <p>The sensor has 4 pins - VCC (5V), GND, Trigger and Echo. Looking at the datasheet for HC-SR04, the way it work is:</p>
@@ -51,9 +47,9 @@ Listen to the Echo pin, and the duration of the next HIGH signal will give you t
 </ul>
 <p><!-- end list --></p>
 <p>This is what it looks like hooked to the Arduino:</p>
-<p><a href="http://electronut.in/wp-content/uploads/2013/05/IMG_1462.jpg"><img src="assets/IMG_1462.jpg" alt="HC-SR04-Arduino" width="800" height="545" class="alignnone size-full wp-image-281" /></a></p>
+<p><img style="padding: 20px;" src="{{ site.baseurl }}/images/2013/05/IMG_1462.jpg"/></p>
 <p>And here is the Arduino code:</p>
 <p><script src="https://gist.github.com/electronut/5662576.js"></script></p>
 <p>This is what the distance plot looks like as I walk to towards the sensor. This is done using Python and matplotlib - please take a look at <a href="http://electronut.in/plotting-real-time-data-from-arduino-using-python/" title="Plotting real-time data from Arduino using Python">my post on plotting real-time data with Python</a>.</p>
-<p><a href="http://electronut.in/wp-content/uploads/2013/05/distance-plot.png"><img src="assets/distance-plot.png" alt="distance-plot" width="636" height="527" class="alignnone size-full wp-image-280" /></a></p>
+<p><img style="padding: 20px;" src="{{ site.baseurl }}/images/2013/05/distance-plot.png"/></p>
 <p>The datasheet says that the sensor has a range of 2cm to 400 cm, and an accuracy of 3mm. The target needs to be 0.5 sq m, so it's not going to be very useful to scan for small objects. But it could be useful in many other situations. The sensor is cheap - about Rs. 250, and I could get it from ebay.in easily. </p>

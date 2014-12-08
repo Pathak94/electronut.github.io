@@ -25,12 +25,8 @@ meta:
   _edit_last: '5'
   _thumbnail_id: '131'
   _cc_post_template_type: img-left-content-right
-author:
-  login: electronut
-  email: info@electronut.in
-  display_name: Chief Electronut
-  first_name: Chief Electronut
-  last_name: ''
+image:
+  feature: header.jpg
 ---
 <p>The first thing you do when you learn a new programming language or platform is to write a "hello world" application. This requires something like a "printf" function. That's not so straightforward when it comes to microcontrollers - where will the output of the "printf" go? That's where serial communications come in. Arduino users have it easy - they just need to use Serial.print(). But the situation is not so bad if you are using a standalone microcontroller - just choose a chip like ATmega168 which has <a href="http://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter">USART </a>- hardware support for serial communications.</p>
 <p>The code needed to transmit serial data is very simple, and the datasheet has most of what you need:</p>
@@ -42,21 +38,21 @@ author:
 <li>For full sprintf formatting support, some additional flags are needed in the linker.</li>
 </ul>
 <p>&nbsp;</p>
-<p><a href="http://electronut.in/wp-content/uploads/2013/05/IMG_1412.jpg"><img class="alignnone size-full wp-image-131" alt="IMG_1412" src="assets/IMG_1412.jpg" width="800" height="733" /></a></p>
+<p><img style="padding: 20px;" src="{{ site.baseurl }}/images/2013/05/IMG_1412.jpg"/></p>
 <div title="Page 199">
 <div>
 <div>
 <p>&nbsp;</p>
 <p>Here is a photo of the setup that I used:</p>
 <p>&nbsp;</p>
-<p><a href="http://electronut.in/wp-content/uploads/2013/05/IMG_1411.jpg"><img class="alignnone size-full wp-image-130" alt="IMG_1411" src="assets/IMG_1411.jpg" width="800" height="543" /></a></p>
+<p><img style="padding: 20px;" src="{{ site.baseurl }}/images/2013/05/IMG_1411.jpg"/></p>
 </div>
 </div>
 </div>
 <p>&nbsp;</p>
 <p>Here is what the output looks like on CoolTerm, a serial monitor that I use on my Mac:</p>
 <p>&nbsp;</p>
-<p><a href="http://electronut.in/wp-content/uploads/2013/05/coolterm.png"><img class="alignnone size-full wp-image-137" style="border: 2px solid black;" alt="coolterm" src="assets/coolterm.png" width="686" height="552" /></a></p>
+<p><img style="padding: 20px;" src="{{ site.baseurl }}/images/2013/05/coolterm.png"/></p>
 <p>&nbsp;</p>
 <p>Having a "printf" function is very handy for debugging your projects - so choose a chip that will let you support this functionality without too much pain.</p>
 <h2>Downloads</h2>
