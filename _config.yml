@@ -2,8 +2,8 @@
 
 title:            electronut.in
 locale:           en_US
-url:              http://localhost:4000
-#url:              http://electronut.in
+#url:              http://localhost:4000
+url:              http://electronut.in
 
 # Jekyll configuration
 
@@ -37,7 +37,7 @@ owner:
   facebook: #username
   google:
     plus: #username
-    analytics: 
+    analytics: UA-44220663-2
     verify: 
     ad-client: 
     ad-slot: 
