@@ -4,7 +4,7 @@ title: Goodbye WordPress, Hello Jekyll.
 excerpt: "I just switched from bloated WordPress to static pages generated using Jekyll."
 tags: [wordpress, jekyll, switch]
 comments: true
-modified: 2014-12-08
+modified: 2014-12-10
 image:
   feature: header.jpg
 ---
@@ -147,7 +147,73 @@ If you like math equations (Who doesn't? $$e^{i\pi}+1=0$$. Sorry.),
 you can enable [MathJax][8] on Jekyll by following [this link][5]. I
 put the MathJax JavaScript code in `_include/_scripts.html`.
 
+##### Google Analytics
 
+It's easy to get statistics for your page visits and such. Create a
+Google Analytics account, get your tracking ID, and add the requisite
+code to your HTML. In my case, my theme already had the following code
+in `_includes/_scripts.html`.
+
+{% highlight html %}
+{% raw %}
+{% if site.owner.google.analytics %}
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl = 
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', '{{ site.owner.google.analytics }}']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+{% endif %}
+{% endraw %}
+{% endhighlight %}
+
+So I just needed to set the `analytics:` variable in `_config.yml` to
+my Google tracker ID.
+
+##### Google Search
+
+Adding a google search box to your Jekyll site is [fairly easy][13]. I
+added this code to `_includes\_scripts.html`:
+
+{% highlight html %}
+{% raw %}
+<!-- Google Search Box -->
+<script language="Javascript" type="text/javascript">
+  function my_search_google()
+  {
+    var query = document.getElementById("my-google-search").value;
+    window.open("http://google.com/search?q=" + query
+	+ "%20site:" + "http://electronut.in");
+  }
+</script>
+{% endraw %}
+{% endhighlight %}
+
+Then, I added the following code to `_includes\_navigation.html`:
+
+{% highlight html %}
+{% raw %}
+<!-- google search -->
+            <li>   
+              <form style="display: inline;" onsubmit="my_search_google()" >
+                <input style="width: 200px;" 
+                       type="text" placeholder="Search" 
+                       id="my-google-search"/>
+              </form>
+            </li>
+{% endraw %}
+{% endhighlight %}
+
+The above code is what shows the "Search" box on top of this site.
 
 ### Conclusion
 
@@ -194,3 +260,4 @@ simplicity of good old static pages, go for Jekyll.
 [10]: http://nathangrigg.net/2012/04/rsyncing-jekyll/
 [11]: http://www.developmentseed.org/blog/2012/07/27/build-cms-free-websites/
 [12]: http://www.grymoire.com/Unix/Sed.html
+[13]: http://truongtx.me/2012/12/28/jekyll-create-simple-search-box/

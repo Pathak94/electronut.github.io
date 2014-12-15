@@ -13,7 +13,15 @@
 					    {% endif %}
 					    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
 					  {% endfor %}
-		    </ul>
+            <!-- google search -->
+            <li> 
+              <form style="display: inline;" onsubmit="my_search_google()" >
+                <input style="width: 200px;" 
+                       type="text" placeholder="Search" 
+                       id="my-google-search"/>
+              </form>
+            </li>
+        </ul>
 		</nav>
 	</div><!-- /.top-navigation -->
 </div><!-- /.navigation-wrapper -->
