@@ -16,7 +16,7 @@ image:
 
 The 8 pin male dual row headers on some of the small peripheral
 boards (for example NRF24L01 and ESP8266 boards) are not suited for a
-breadbaord - unless you are trying to short the pins out. A simple
+breadboard - unless you are trying to short the pins out. A simple
 hack is to cut female pin headers, stick them together with hot glue,
 and bend the pins with needle-nose pliers. The photo above is
 self-explanatory, I think. A simple hack, but it works.
