@@ -188,7 +188,10 @@ void nsleep(int nMinutes) {
 {% endraw %}
 {% endhighlight %}
 
-For enclosure, I designed a T-slot based acrylic box using the [Inkscape T-Slot Boxmaker plugin][3]. Here's what it looks like:
+For enclosure, I designed a T-slot based acrylic box using the
+[Inkscape T-Slot Boxmaker plugin][3]. It uses *M2x10* hex screws and
+has slots for the LM35, PCB spacer, as well as one for hanging the box on a
+nail. Here's what it looks like:
 
 <br />
 <br />
