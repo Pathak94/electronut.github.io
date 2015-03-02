@@ -5,7 +5,7 @@ excerpt: "A Python script to communicate with the Spark Core using their cloud A
 tags: [Spark Core, WiFi, IoT, Python]
 categories: [Python, Electronics]
 comments: true
-modified:
+modified: 2015-02-02
 image:
   feature: header.jpg
 ---
@@ -19,7 +19,9 @@ Events (SSE)*.
 
 Here is a sample run of the program. (You can get the *access token* from Spark Build IDE.)
 
-```
+{% highlight sh %}
+{% raw %}
+
 $ python talk_spark.py --at XXXX_ACCESS_TOKEN --list
 [{u'connected': True, u'last_heard': u'2015-02-26T02:17:22.450Z', u'last_app': None, u'id': u'xxxxxxx', u'name': u'yyyy'}]
 
@@ -28,7 +30,9 @@ Notification: Yo 4 at 2015-02-26T01:59:02.272Z
 Notification: Yo 5 at 2015-02-26T01:59:07.278Z
 Notification: Yo 6 at 2015-02-26T01:59:12.281Z
 ^Cexiting.
-```
+
+{% endraw %}
+{% endhighlight %}
 
 You can find the source files for the project here, which has the Python code, 
 as well as a simple Spark Core program for testing notifications.
