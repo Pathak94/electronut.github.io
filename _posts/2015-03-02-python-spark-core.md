@@ -5,7 +5,7 @@ excerpt: "A Python script to communicate with the Spark Core using their cloud A
 tags: [Spark Core, WiFi, IoT, Python]
 categories: [Python, Electronics]
 comments: true
-modified: 2015-02-02
+modified: 2015-03-02
 image:
   feature: header.jpg
 ---
