@@ -34,13 +34,9 @@ Notification: Yo 6 at 2015-02-26T01:59:12.281Z
 {% endraw %}
 {% endhighlight %}
 
-You can find the source files for the project here, which has the Python code, 
-as well as a simple Spark Core program for testing notifications.
-
-[https://github.com/electronut/talk_spark][2]
-
-
-I look forward to playing with the Spark Photon soon!
+You can find the source files for the project [here][2], which has the
+Python code, as well as a simple Spark Core program for testing
+notifications. I look forward to playing with the Spark Photon next.
 
 [1]: https://www.spark.io/
 [2]: https://github.com/electronut/talk_spark 
