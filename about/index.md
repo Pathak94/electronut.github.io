@@ -5,7 +5,7 @@ tags: [about, electronut]
 modified: 2014-12-10
 comments: false
 image:
-  feature: header-2014-2.jpg
+  feature: header.jpg
 ---
 
 The madness started in 8th grade. Someone told me that it was possible
