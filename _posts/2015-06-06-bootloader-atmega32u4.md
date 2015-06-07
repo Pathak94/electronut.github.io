@@ -5,7 +5,7 @@ excerpt: "Soldering the ATmega32u4 chip and installing Arduino Bootloader on it.
 tags: [AVR, Arduino, ATmega32u4, bootloader]
 categories: [Electronics]
 comments: true
-modified: 2015-06-06
+modified: 2015-06-07
 image:
   feature: header.jpg
 ---
@@ -164,6 +164,8 @@ Thanks to **Ayush Sagar** for pointing out to me that the D+/D- wire colors in U
 ##References
 
 1. Atmel ATmega32u4 data sheet.
+2. Adafruit ATmega32u4 breakout board documentation.
+3. Sparkfun ATmega32u4 breakout board documentation.
 
 [1]: https://www.adafruit.com/products/296
 [2]: https://www.sparkfun.com/products/11117
