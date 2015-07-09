@@ -1,7 +1,7 @@
 ---
 layout: post
 title: External nRF51822 SWD Programming using the nRF-DK
-excerpt: "Using the Nordic nRF-DK SWD pins to progam external nRF51822 boards."
+excerpt: "Using the Nordic nRF51-DK SWD pins to program external nRF51822 boards."
 tags: [nRF51822, nRF-DK, BLE, SWD, JTAG, ADC]
 categories: [Electronics]
 comments: true
