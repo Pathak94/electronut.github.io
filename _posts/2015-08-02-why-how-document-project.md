@@ -147,6 +147,8 @@ projects. Now let me offer some suggestions on how to get started.
 3. Structure your Documentation.
 4. Read up on writing.
 
+Let me elucidate a bit on the above.
+
 ## Start a Blog Today
 
 This is the easiest way to start documenting your project, and signing
