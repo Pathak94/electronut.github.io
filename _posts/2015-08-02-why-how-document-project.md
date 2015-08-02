@@ -117,7 +117,7 @@ do it flesh it out and make it presentable.
 ### Fear of Criticism
 
 When you make your work public, you are naturally opening yourself up
-for criticism. Unfortunately, the anonymtiy of the web makes people
+for criticism. Unfortunately, the anonymity of the web makes people
 harsher than in real life when it comes to interacting with others. 
 But getting criticised by a knowledgeable person has its
 benefits - you just need to let your ego down, and listen to what is
