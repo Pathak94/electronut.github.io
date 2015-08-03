@@ -5,7 +5,7 @@ excerpt: "An appeal to makers - why you should document your project, and how yo
 tags: [electronics, project, documentation, writing]
 categories: [Electronics]
 comments: true
-modified: 2015-08-02
+modified: 2015-08-03
 image:
   feature: header.jpg
 ---
