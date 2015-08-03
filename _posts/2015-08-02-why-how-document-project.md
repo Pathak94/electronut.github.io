@@ -62,7 +62,7 @@ period of time. When you make documentation a habit, you will soon
 find that you have created a portfolio of projects. This is much more
 credible than a resume with exagerrated accounts of your fabulous
 acheivements. In fact your documentation *is* your real resume. People will
-eventually notice you work, and it will open doors. This blog for
+eventually notice your work, and it will open doors. This blog for
 example, has given me international exposure. It has put me touch with
 the maker community at large, given me oppportinities for
 collaboration, and played a part in landing my first book contract.
