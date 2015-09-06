@@ -169,11 +169,11 @@ over NUS (Nordic UART Service) [as before][1].
 
 ![nRF51-E3BO](/images/2015/07/nRF51-E3BO.jpg "nRF51-E3BO")
 
-There are number of inexpensive (&asymp;USD 5) nRF51822 modules
+There are several inexpensive (&asymp;USD 5) nRF51822 modules
 available on sites like *aliexpress*. But these usually come with a
 dual 2x9 1.27 mm pitch headers, making it very difficult to work with
 them. In collaboration with [Explore Embedded][7], I have designed a
-breakout board with these adapters, amd that's what I will be using
+breakout board with these adapters, and that's what I will be using
 for this article. (Note that what I say is valid whether you use this
 breakout board or not.) 
 
