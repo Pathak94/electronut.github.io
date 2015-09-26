@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Touch Sensitive Blinky Badge 
-excerpt: "A transistor based touch sensitive LED flasher badge to teach electronics and SMD soldering to kids and beginners."
-tags: [LED, touch, badge, beginner, electronics, SMD, soldering]
+title: Touch Activated Blinky Badge 
+excerpt: "A transistor based touch activated LED flasher badge to teach electronics and SMD soldering to kids and beginners."
+tags: [LED, touch, badge, beginner, electronics, SMD, soldering, python]
 categories: [Electronics]
 comments: true
 modified: 2015-09-26
