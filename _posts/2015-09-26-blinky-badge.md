@@ -12,7 +12,7 @@ image:
 ---
 
 ![Touch Activated Blinky Badge](/images/2015/09/bb.png "Blinky Badge")
-
+`
 I wanted to create a simple project to teach soldering and electronics
 to kids (10+ years) and beginners. I first thought of a simple two
 transistor LED flasher, but then decided to make it interactive by
@@ -57,4 +57,15 @@ Materials (BOM) and gerbers, at my github link below:
 
 [https://github.com/electronut/blinky-badge][1]
 
+## Order From OSH Park
+
+![BB OSHPark](/images/2015/09/bb-oshpark.png "BB OSHPark")
+
+I've uploaded my gerbers to OSH Park. You can order PCBs from them
+using the link below.
+
+[https://oshpark.com/shared_projects/ETjUQUC9][2]
+
+
 [1]: https://github.com/electronut/blinky-badge
+[2]: https://oshpark.com/shared_projects/ETjUQUC9
