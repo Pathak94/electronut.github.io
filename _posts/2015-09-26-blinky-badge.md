@@ -11,7 +11,7 @@ image:
   feature: header.jpg
 ---
 
-![TSBB](/images/2015/09/bb.png "Blinky Badge")
+![Touch Activated Blinky Badge](/images/2015/09/bb.png "Blinky Badge")
 
 I wanted to create a simple project to teach soldering and electronics
 to kids (10+ years) and beginners. I first thought of a simple two
