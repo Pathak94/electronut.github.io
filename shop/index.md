@@ -20,14 +20,14 @@ I am happy to announce the release of my book <strong>Python Playground</strong>
 <hr />
 ##snapVCC
 
-![snapVCC]({{ site.baseurl }}/images/2015/09/snapVCC-pre1.jpg)
+![snapVCC]({{ site.baseurl }}/images/2015/09/snapVCC1.1.jpg)
 
 snapVCC is a tiny 3.3 V / 5 V voltage regulator that snaps right on top of
 a 9 volt battery. It is a highly portable and convenient power supply for
 your electronics projects. 
 
 <form action="https://www.crowdsupply.com/electronut/snapvcc">
-    <input type="submit" value="Click to Support My Crowd Funding Campaign">
+    <input type="submit" value="Click to support snapVCC Crowd Funding Campaign">
 </form>
 <hr />
 ## nRF51822 Adapter PCB
