@@ -5,7 +5,7 @@ excerpt: "Hacking a Cheap Diwali LED Lamp with Nordic nRF51822 BLE SoC and contr
 tags: [BLE, nRF51822, LED, Diwali]
 categories: [Electronics]
 comments: true
-modified: 2015-11-10
+modified: 2015-11-09
 thumbnail: images/2015/11/ble-lamp-final.jpg
 image:
   feature: header.jpg
