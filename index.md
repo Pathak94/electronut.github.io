@@ -5,7 +5,7 @@ tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: header.jpg
 ---
-Welcome to **electronut.in**, my blog on electronic circuits,
+Welcome to **electronut Labs**, my blog on electronic circuits,
 microcontrollers, and programming. In addition to the recent posts
 listed below, do also check out the [**all posts**][2] page for more
 projects. If you are looking for something specific, try the *search
