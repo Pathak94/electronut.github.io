@@ -32,8 +32,13 @@
   <div class="article-author-side">
     {% include _author-bio.html %}
   </div>
+
   <div id="index">
     {{ content }}
+
+    <!-- featured product -->
+    {% include _featured.html %}
+
     <h3><a href="{{ site.url}}/posts/">Recent Blog Posts</a></h3>
     {% for post in site.posts limit:10 %}    
     <article>
