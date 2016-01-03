@@ -26,9 +26,9 @@ kramdown:
 
 # Site owner
 owner:
-  name: Mahesh Venkitachalam
-  avatar: portrait.jpg
-  bio: "Programmer/Electronics Hacker/Photographer/Writer from Bangalore."
+  name: electronut Labs
+  avatar: logo-square.png
+  bio: "Cool Hardware & Projects for Makers worldwide."
   email: info@electronut.in
   disqus-shortname: electronutin
   twitter: electronutLabs

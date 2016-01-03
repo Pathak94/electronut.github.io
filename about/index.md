@@ -8,6 +8,14 @@ image:
   feature: header.jpg
 ---
 
+**electronut Labs** is the creation of **Mahesh Venkitachalam** -
+  programmer, writer, photographer and electronics hacker based in
+  Bengaluru, India. We are a small business focused on creating
+  unique, useful electronics hardware and educational content for
+  Makers worldwide.
+
+## Genesis
+
 The madness started in 8th grade. Someone told me that it was possible
 to cut an LED and make a photocell out of it. Having no idea what that
 meant, I dragged my dad to the narrow row of electronics shops near
@@ -58,9 +66,5 @@ their disposal.
 
 I have established **electronut.in** to share my journey with
 you. Hope you enjoy your visit!
-<br/>
 
-<br/><br/>
-[**electronut** is a registered trademark of Visualization Consulting,
-Bangalore.]
-
+![portrait]({{ site.baseurl }}/images/portrait_small.jpg)
