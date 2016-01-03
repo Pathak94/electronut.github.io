@@ -27,7 +27,7 @@ kramdown:
 # Site owner
 owner:
   name: electronut Labs
-  avatar: logo-square.png
+  avatar: 1px.png
   bio: "Cool Hardware & Projects for Makers worldwide."
   email: info@electronut.in
   disqus-shortname: electronutin
