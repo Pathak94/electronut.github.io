@@ -2,11 +2,13 @@
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
 {% endif %}
 
+<!-- comment out avatar
 {% if author.avatar contains 'http' %}
 	<img src="{{ author.avatar }}" class="bio-photo" alt="{{ author.name }} bio photo">
 {% else %}
 	<img src="{{ site.url }}/images/{{ author.avatar }}" class="bio-photo" alt="{{ author.name }} bio photo">
-{% endif %}
+{% endif %} -->
+
 <h3>{{ author.name }}</h3>
 <p>{{ author.bio }}</p>
 {% if author.email %}<a href="mailto:{{ author.email }}" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a>{% endif %}
@@ -26,4 +28,6 @@
 {% if author.youtube %}<a href="https://youtube.com/user/{{ author.youtube }}" class="author-social" target="_blank"><i class="fa fa-fw fa-youtube-square"></i> Youtube</a>{% endif %}
 {% if author.soundcloud %}<a href="http://soundcloud.com/{{ author.soundcloud }}" class="author-social" target="_blank"><i class="fa fa-fw fa-soundcloud"></i> Soundcloud</a>{% endif %}
 <!-- Custom AD -->
+<!--
 {% include _ad.html %}
+-->
