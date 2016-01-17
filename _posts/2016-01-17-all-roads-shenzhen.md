@@ -225,7 +225,7 @@ sales pitch. My seller stood on top of a drone to demonstrate its
 crash recoverability. So of course I bought one.
 
 Looking at HQB, you understand why so many companies from the west
-have operations here. Need a roll of MOSFETs for your assembly line? No
+have operations here. Need a reel of MOSFETs for your assembly line? No
 problem - just walk to HQB and get one. It's like buying vegetables in
 a supermarket.
 
