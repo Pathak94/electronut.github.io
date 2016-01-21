@@ -14,6 +14,26 @@ image:
   unique, useful electronics hardware and educational content for
   Makers worldwide.
 
+## Location
+
+We are located inside [IKP Eden][1] in Bangalore, right opposite to 
+Forum mall, Koramangala. 
+
+![electronut Labs](/images/2016/01/el-office.jpg)
+
+### Contact Information
+
+<pre>
+electronut Labs
+IKP Eden
+16, Bhuvanappa Layout
+Tavarekere Main Road
+Bangalore 560029
+India
+Tel: +91-9008421088
+Email: info@electronut.in
+</pre>
+
 ## Genesis
 
 The madness started in 8th grade. Someone told me that it was possible
@@ -56,15 +76,12 @@ around with “Turbo C” graphics on 386 PCs at the tiny computer lab in
 the Metallurgical Engineering department.
 
 Now, years later, I am renewing my passion in electronics and
-programming. This time, I am re-learning electronics from both
-directions - bottom level hardware (designing sensor circuits), and
-top level software - programming these tiny computers that talk to
-sensors. At the same time, I am learning PCB design, and new
-manufacturing techniques like laser-cutting and 3D printing. What an
-age we live in! The DIY-ers never had a more powerful set of tools at
-their disposal.
+programming through **electronut Labs**. This time, I am approaching
+electronics from both directions - bottom level hardware (designing
+sensor circuits), and top level software - programming these tiny
+computers that talk to sensors. At the same time, I am learning PCB
+design, and new manufacturing techniques like laser-cutting, 3D
+printing and others. What an age we live in! The DIY-ers never had a
+more powerful set of tools at their disposal.
 
-I have established **electronut.in** to share my journey with
-you. Hope you enjoy your visit!
-
-![portrait]({{ site.baseurl }}/images/portrait_small.jpg)
+[1]: http://ikpeden.com/
