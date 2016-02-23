@@ -7,7 +7,7 @@ image:
 ---
 <hr/>
 
-##Python Playground
+## Python Playground
 
 <p>
 <img src="{{ site.baseurl }}/images/2014/07/pp-cover.jpg"/>
@@ -18,7 +18,7 @@ I am happy to announce the release of my book <strong>Python Playground</strong>
     <input type="submit" value="Click to Read More & Purchase">
 </form>
 <hr />
-##snapVCC
+## snapVCC
 
 ![snapVCC]({{ site.baseurl }}/images/2015/09/snapVCC1.1.jpg)
 
