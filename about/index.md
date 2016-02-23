@@ -12,7 +12,8 @@ image:
   programmer, writer, photographer and electronics hacker based in
   Bengaluru, India. We are a small business focused on creating
   unique, useful electronics hardware and educational content for
-  Makers worldwide.
+  Makers worldwide. You can read more about how electronut Labs 
+  came to be at the [genesis][2] page.
 
 ## Location
 
@@ -34,54 +35,35 @@ Tel: +91-9008421088
 Email: info@electronut.in
 </pre>
 
-## Genesis
+## Company Philosophy
 
-The madness started in 8th grade. Someone told me that it was possible
-to cut an LED and make a photocell out of it. Having no idea what that
-meant, I dragged my dad to the narrow row of electronics shops near
-the Thrissur railway station in Kerala. Over the next 3 years, I
-pretty much could think of only circuits. I didn't understand much of
-the theory, but that didn't stop me from learning soldering and
-building a whole bunch of circuits ranging from the "clap switch" to a
-power amplifier. My dad was very supportive of my hobby, and his only
-concern seemed to be that I was "straining my eyes soldering
-microscopic components". It seemed obvious that I would pursue a
-career in electronics. But as fate would have it, I went on to study
-Metallurgical Engineering, then Materials Science and finally ended up
-with a career in Software Development.
+electronut Labs is a *non-startup*, in the spirit of the book *Rework*
+by Fried & Hansson. What we mean by this, is that phrases like "Exit
+Strategy" and "Series A" have no meaning here. We are a small group of
+engineers, and our long term vision is to create a viable business
+with a portfolio of unique and useful electronics hardware. Our only 
+commitment is towards our customers, whom we hope to delight, surprise, 
+and support.
 
+## Work Environment
 
-I was introduced to programming in 1991, during my first year as an
-undergrad at the Indian Institute of Technology, Bombay. The CS101
-course lectures were conducted in a huge auditorium. We never missed
-these lectures. It was air-conditioned, and the professor dimmed the
-lights at the start of the lecture. This was a much better place to
-sleep than the dingy hostel room. The course required us to write
-programs using Fortran 77 in a computer building, on consoles
-connected to a mainframe we called “Cyber”. The Cyber building was
-also air conditioned, and to escape from the sweltering heat of
-Bombay, all you had to do is find the right nook to hide yourself
-within Cyber's maze of cubicles, monitors and rectangular slabs
-bristling with lights. You were safe as long as you avoided the prying
-eyes of the security guard trained to eject loitering undergrad
-riffraff from the building. The other grave danger you faced in Cyber
-was that someone would steal your footwear, which you were required to
-leave outside the building. I don't recall finishing a single
-assignment for the course successfully, and my final project, a
-ghastly implementation of the “Snakes and Ladders” game, left a
-lasting impression on the examiner. This experience should have made
-me hate programming for good. Thankfully, that did not happen. I
-eventually discovered the joy of programming on my own by fiddling
-around with “Turbo C” graphics on 386 PCs at the tiny computer lab in
-the Metallurgical Engineering department.
+At electronut Labs, we don't believe in packing people into a tiny
+room like sardines in a can and cracking the whip. (Talk about fishy
+analogies!) We believe that really cool ideas in Engineering don't
+come out of textbooks, but from a healthy exposure to the creative
+world of Arts. We want our engineers to be inspired by life, and for
+that they need to have a life outside of work. When we are at work, we
+work without distraction from umpteen different beeping gizmos. You
+won't find hour long meetings, TPS reports to file, or two-hour
+lunches here. We go home to the family when there's still daylight
+left.
 
-Now, years later, I am renewing my passion in electronics and
-programming through **electronut Labs**. This time, I am approaching
-electronics from both directions - bottom level hardware (designing
-sensor circuits), and top level software - programming these tiny
-computers that talk to sensors. At the same time, I am learning PCB
-design, and new manufacturing techniques like laser-cutting, 3D
-printing and others. What an age we live in! The DIY-ers never had a
-more powerful set of tools at their disposal.
+## Jobs
+
+We are very selective about whom we hire. If you have a passion for
+building things, are comfortable coding up microcontrollers, designing
+PCBs, building electronics circuits, and have a bunch of published
+projects on the web, we'd love to hear from you.
 
 [1]: http://ikpeden.com/
+[2]: http://electronut.in/genesis
