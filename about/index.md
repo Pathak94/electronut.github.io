@@ -127,7 +127,7 @@ The folks that make **electronut Labs** tick.
         <strong>Seby Kallarakkal</strong>, <i>Business Advisor</i>. <br/>
         An architect by training and current CEO of <i>Nabler</i>, Seby has a
         strong interest in Big Data and actionable insights that can be
-        gleaned from its analysis. He has a knack for identiying the
+        gleaned from its analysis. He has a knack for identifying the
         core business issue in any technology based effort. He also loves
         spreadsheets, and gets agitated at inefficient eateries.
 
