@@ -129,7 +129,7 @@ The folks that make **electronut Labs** tick.
         strong interest in Big Data and actionable insights that can be
         gleaned from its analysis. He has a knack for identiying the
         core business issue in any technology based effort. He also loves
-        spreadsheets, and gets agitated at inefficienct eateries.
+        spreadsheets, and gets agitated at inefficient eateries.
 
         </td>
 </tr>
