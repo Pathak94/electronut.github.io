@@ -33,7 +33,6 @@ IKP Eden
 Tavarekere Main Road
 Bangalore 560029
 India
-Tel: +91-9008421088
 Email: info@electronut.in
 </pre>
 
