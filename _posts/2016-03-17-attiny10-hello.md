@@ -5,8 +5,8 @@ excerpt: "Programming ATtiny10 using TPI and driving an RGB LED."
 tags: [tinyAVR, ATtiny10, TPI, Atmel ICE, Atmel Studio]
 categories: [Electronics]
 comments: true
-modified: 2016-03-7
-thumbnail: images/2015/12/attiny85-mma7660-ice1.jpg
+modified: 2016-03-17
+thumbnail: images/2016/03/attiny10-finger.jpg 
 image:
   feature: header.jpg
 ---
