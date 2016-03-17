@@ -16,7 +16,7 @@ image:
 ## Introduction
 
 I like Atmel tinyAVRs because they are tiny computers that I can
-(almost) wrap my head around. The Atmel ATtiny4/5/8/10 are the
+(almost) wrap my head around. The Atmel ATtiny4/5/9/10 are the
 cheapest in the tinyAVR line, and they come in two packages - *SOT23*
 pictured above, and an even more stupendously small 2mm x 2mm *USON*
 package. This article will talk about programming these little
