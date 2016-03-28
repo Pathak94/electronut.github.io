@@ -7,26 +7,33 @@ image:
 ---
 <hr/>
 
-## Python Playground
+### Click To Buy
 
-<p>
-<img src="{{ site.baseurl }}/images/2014/07/pp-cover.jpg"/>
-</p>
-I am happy to announce the release of my book <strong>Python Playground</strong> published by **No Starch Press**, USA. It's a fun romp through Python, applying the language to a number of interesting projects that include a <em>Boids</em> simulation, an OpenGL based <em>volume renderer</em>, and an <em>autostereogram</em> generator. It also has a few hardware projects that use the Arduino microcontroller platform and the tiny Raspberry Pi computer. 
+<!-- start table -->
+<table>
 
-<form action="http://www.nostarch.com/pythonplayground">
-    <input type="submit" value="Click to Read More & Purchase">
-</form>
-<hr />
-## snapVCC
+<!-- row #1 -->
+<tr style="margin:auto; padding:auto;">
 
-![snapVCC]({{ site.baseurl }}/images/2015/09/snapVCC1.1.jpg)
+        <td style="width: 300px; height: 300px;margin:auto; padding:auto;">
+        <a href="https://www.crowdsupply.com/electronut-labs/snapvcc">
+        <img src="/images/shop/snapVCC.png" style = "border: 1 px gray; border-radius: 5%; -webkit-box-shadow: 5px 5px 5px 6px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 5px 5px 6px rgba(0,0,0,0.75);
+box-shadow: 5px 5px 5px 6px rgba(0,0,0,0.75);"/>
+        </a>
+        </td>
 
-snapVCC is a tiny 3.3 V / 5 V voltage regulator that snaps right on top of
-a 9 volt battery. It is a highly portable and convenient power supply for
-your electronics projects. 
+        <td style="width: 300px; height: 300px;margin:auto; padding:auto;">
+        <a href="https://www.nostarch.com/pythonplayground">
+        <img src="/images/shop/pp.png" style = "border: 1 px gray; border-radius: 5%; -webkit-box-shadow: 5px 5px 5px 6px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 5px 5px 6px rgba(0,0,0,0.75);
+box-shadow: 5px 5px 5px 6px rgba(0,0,0,0.75);"/>
+        </a>
+        </td>
 
-<form action="https://www.crowdsupply.com/electronut/snapvcc">
-    <input type="submit" value="Click to Read More & Purchase">
-</form>
+</tr>
+
+<!-- end table -->
+</table>
+
 <hr />
