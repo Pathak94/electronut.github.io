@@ -99,7 +99,7 @@ easy to develop projects for this board.
 
 You can the design files and sample code associated with *tinyDriver* here:
 
-[https://github.com/electronut/tinyDriver][1]
+[https://github.com/electronut/tinyDriver][5]
 
 ## tinyDriver Applications
 
