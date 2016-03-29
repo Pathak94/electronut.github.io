@@ -97,7 +97,7 @@ easy to develop projects for this board.
 
 ### Design Files
 
-You can the design files and sample code associated with *tinyDriver* here:
+You can find the design files and sample code associated with *tinyDriver* here:
 
 [https://github.com/electronut/tinyDriver][5]
 
