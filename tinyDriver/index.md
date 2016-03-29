@@ -41,7 +41,7 @@ alternatives:
 
 In my view, the Atmel tinyAVR line is a great place to start your 
 microcontroller journey. The chips vary in complexity across their line, 
-and the simplest of them cost well under a US dollar. So how to you work 
+and the simplest of them cost well under a US dollar. So how do you work 
 with these chips? Well, the traditional way!
 
 1. Get a tinyAVR.
@@ -110,7 +110,7 @@ the ideas we are currently working on:
 - Autonomous 2WD robot with ultrasonic sensor
 - A laser display that syncs to audio input
 - A mechanical iris controlled by a stepper motor
-- A soldenoid based drum machine
+- A solenoid based drum machine
 
 [1]: http://electronut.in/attiny10-hello/
 [2]: http://electronut.in/attiny85-mma7660/
