@@ -25,7 +25,7 @@ But here's the thing. For someone who does not have an Electrical
 Engineering background (like myself), Arduino often gives a false 
 sense of accomplishment. Blinking a few LEDs or interfacing with an 
 ultrasonic sensor with code downloaded 
-from the internet may make us feel like an elite hacker, but the truth 
+from the internet may make us feel like elite hackers, but the truth 
 is that we have barely even *seen* the tip of the iceberg. 
 It's perfectly fine to *start* your journey with an Arduino, but it's
 good to be aware that there is a whole world of exciting electronics 
