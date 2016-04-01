@@ -2,7 +2,7 @@
 layout: page
 title: tinyDriver
 tags: [tinyDriver, tinyAVR, ATtiny84, Arduino]
-modified: 2016-03-28
+modified: 2016-04-01
 comments: false
 image:
   feature: header.jpg
@@ -76,6 +76,9 @@ the various features of the chip such as timers, PWM, interrupts, ADC,
 and digital I/O. The free and cross-platform *avr-gcc* and *avrdude* 
 toolchain combined with cheap USB based AVR programmers makes it very 
 easy to develop projects for this board.
+
+The idea is that you can use *tinyDriver* as a convenient platform 
+to learn about tinyAVRs and prototype your projects.
 
 *tinyDriver* is an Open Source hardware project. Here is the schematic:
 
