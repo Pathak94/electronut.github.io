@@ -104,7 +104,13 @@ You can find the design files and sample code associated with *tinyDriver* here:
 
 [https://github.com/electronut/tinyDriver][5]
 
-## tinyDriver Applications
+
+## tinyDriver Documentation
+
+Got a *tinyDriver*? Awesome. Begin your journey with the 
+[getting started][6] guide.
+
+### tinyDriver Applications
 
 We are developing a number of exciting open source projects using
 *tinyDriver*. Watch this space for details, but here are some of 
@@ -120,3 +126,4 @@ the ideas we are currently working on:
 [3]: http://electronut.in/talking-to-ultrasonic-distance-sensor-hc-sr04-using-an-attiny84/
 [4]: http://electronut.in/serial-communications-with-the-attiny84/
 [5]: https://github.com/electronut/tinyDriver
+[6]: http://electronut.in/tinyDriver/start
