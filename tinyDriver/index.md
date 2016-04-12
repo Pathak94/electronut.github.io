@@ -10,10 +10,10 @@ image:
 
 *Because you really don't need an Arduino for everything.*
 
-![](tinyDriver.png)
+![tinyDriver](tinyDriver.jpg)
 
-<form action="https://www.crowdsupply.com/electronut/snapvcc">
-  <input type="submit" value="Click to Purchase tinyDriver (USD 14.99)">
+<form action="https://www.crowdsupply.com/electronut-labs/tinydriver">
+  <input type="submit" value="Click to help Crowd Fund tinyDriver">
 </form>
 
 ## Motivation
@@ -107,10 +107,17 @@ You can find the design files and sample code associated with *tinyDriver* here:
 
 ## tinyDriver Documentation
 
+Here is a list of resources that will help you work with *tinyDriver*.
+
+
+### Getting Started
+
 Got a *tinyDriver*? Awesome. Begin your journey with the 
 [getting started][6] guide.
 
 ### tinyDriver Applications
+
+![2WD Robot](2wdrobot.jpg)
 
 We are developing a number of exciting open source projects using
 *tinyDriver*. Watch this space for details, but here are some of 
@@ -120,6 +127,11 @@ the ideas we are currently working on:
 - A laser display that syncs to audio input
 - A mechanical iris controlled by a stepper motor
 - A solenoid based drum machine
+
+### YOUR Projects!
+
+Got a cool project you built with *tinyDriver*? Email us a link, 
+and we will feature it here!
 
 [1]: http://electronut.in/attiny10-hello/
 [2]: http://electronut.in/attiny85-mma7660/
