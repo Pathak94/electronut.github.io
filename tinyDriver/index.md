@@ -102,7 +102,7 @@ to learn about tinyAVRs and prototype your projects.
 
 You can find the design files and sample code associated with *tinyDriver* here:
 
-[https://github.com/electronut/tinyDriver][5]
+[https://github.com/electronut/tinyDriverP][5]
 
 
 ## tinyDriver Documentation
@@ -137,5 +137,5 @@ and we will feature it here!
 [2]: http://electronut.in/attiny85-mma7660/
 [3]: http://electronut.in/talking-to-ultrasonic-distance-sensor-hc-sr04-using-an-attiny84/
 [4]: http://electronut.in/serial-communications-with-the-attiny84/
-[5]: https://github.com/electronut/tinyDriver
+[5]: https://github.com/electronut/tinyDriverP
 [6]: http://electronut.in/tinyDriver/start
