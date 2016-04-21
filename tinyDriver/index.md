@@ -119,6 +119,8 @@ Got a *tinyDriver*? Awesome. Begin your journey with the
 
 ![2WD Robot](2wdrobot.jpg)
 
+![Laser Audio](laser-audio.jpg)
+
 We are developing a number of exciting open source projects using
 *tinyDriver*. Watch this space for details, but here are some of 
 the ideas we are currently working on:
