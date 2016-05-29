@@ -12,15 +12,15 @@ image:
   programmer, writer, photographer and electronics hacker based in
   Bengaluru, India. We are a small business focused on creating
   unique, useful electronics hardware and educational content for
-  Makers worldwide. You can read more about how electronut Labs 
+  Makers worldwide. You can read more about how electronut Labs
   came to be at the [genesis][2] page.
 
 <hr/>
 
 ## Location
 
-We are located inside [IKP Eden][1] in Bangalore, right opposite to 
-Forum mall, Koramangala. 
+We are located inside [IKP Eden][1] in Bangalore, right opposite to
+Forum mall, Koramangala.
 
 ![electronut Labs](/images/2016/01/el-office.jpg)
 
@@ -38,35 +38,21 @@ Email: info@electronut.in
 
 <hr/>
 
-## Company Philosophy
-
-electronut Labs is a *non-startup*, in the spirit of the book *Rework*
-by Fried & Hansson. What we mean by this, is that phrases like "Exit
-Strategy" and "Series A" have no meaning here. We are a small group of
-engineers, and our long term vision is to create a viable business
-with a portfolio of unique and useful electronics hardware. Our only 
-commitment is towards our customers, whom we hope to delight, surprise, 
-and support.
-
-## Work Environment
-
-At electronut Labs, we don't believe in packing people into a tiny
-room like sardines in a can and cracking the whip. (Talk about fishy
-analogies!) We believe that really cool ideas in Engineering don't
-come out of textbooks, but from a healthy exposure to the creative
-world of Arts. We want our engineers to be inspired by life, and for
-that they need to have a life outside of work. When we are at work, we
-work without distraction from umpteen different beeping gizmos. You
-won't find hour long meetings, TPS reports to file, or two-hour
-lunches here. We go home to the family when there's still daylight
-left.
-
 ## Jobs
 
-We are very selective about whom we hire. If you have a passion for
-building things, are comfortable coding up microcontrollers, designing
-PCBs, building electronics circuits, and have a bunch of published
-projects on the web, we'd love to hear from you.
+We now have seed funding, and have started our journey to build an interesting, useful IoT device.
+We are currently looking for a software engineer to join our team, who can help us with mobile apps and cloud integration.
+
+Must Have Requirements:
+
+- Expertise in JavaScript, node.js, and associated web technologies.
+- Familiarity with Ionic/Angular and PhoneGap/Cordova.
+- Familiarity with AWS.
+- Familiarity with Python.
+- Published mobile/web Apps or open source projects that can demonstrate coding abilities.
+- An interest in electronics hardware. Hands on experience with Arduino is a plus!
+
+Interested? Write to us at **info@electronut.in**
 
 <hr/>
 
@@ -85,11 +71,11 @@ The folks that make **electronut Labs** tick.
 
         <td style="height: 150px;padding-top:20px;vertical-align: top;">
         <strong>Mahesh Venkitachalam</strong>, <i>Founder & Chief TroubleMaker</i>. <br/>
-        Smitten with electronics since childhood, Mahesh has managed to make 
-        himself even more dangerous by learing some programming. Loves 
-        photography, reading 
-        (especially Sci-Fi), art, and good cinema. 
-        Has a tendency to mutter "comma, space!" while reading articles 
+        Smitten with electronics since childhood, Mahesh has managed to make
+        himself even more dangerous by learing some programming. Loves
+        photography, reading
+        (especially Sci-Fi), art, and good cinema.
+        Has a tendency to mutter "comma, space!" while reading articles
         written by others.
         </td>
 </tr>
@@ -102,9 +88,9 @@ The folks that make **electronut Labs** tick.
 
         <td style="height: 150px;padding-top:20px;vertical-align: top;">
         <strong>Rishi Shukla</strong>, <i>Intern</i>. <br/>
-        Only a few months away from graduation, this young engineer is learning 
-        electronics and programming at an alarming rate. He keeps the energy 
-        levels high at the lab. When he's not erasing bootloaders, his mind is 
+        Only a few months away from graduation, this young engineer is learning
+        electronics and programming at an alarming rate. He keeps the energy
+        levels high at the lab. When he's not erasing bootloaders, his mind is
         on sketching, sports, gaming, or motorbikes with large engines.
         </td>
 </tr>
@@ -141,9 +127,9 @@ The folks that make **electronut Labs** tick.
 
         <td style="height: 150px;padding-top:20px;vertical-align: top;">
         <strong>Raviprakash Jayaraman, Ph.D.</strong>, <i>Scientific Advisor</i>. <br/>
-        Trained in Materials Science with a specialization in semiconductor 
-        devices, Ravi is our first stop when we want to understand some new technology. He is also a recreational programmer and Linux hacker, and is 
-        known to issue occasional threats about going over to the dark side and becoming a Software Engineer. 
+        Trained in Materials Science with a specialization in semiconductor
+        devices, Ravi is our first stop when we want to understand some new technology. He is also a recreational programmer and Linux hacker, and is
+        known to issue occasional threats about going over to the dark side and becoming a Software Engineer.
         </td>
 </tr>
 
