@@ -30,7 +30,7 @@ owner:
   avatar: 1px.png
   bio: "Cool Hardware & Awesome Projects for Makers worldwide."
   email: info@electronut.in
-  disqus-shortname: electronutin
+  disqus-shortname:
   twitter: electronutLabs
   github: electronut
   flickr: tat-tvam-asi
@@ -38,10 +38,10 @@ owner:
   google:
     plus: #username
     analytics: UA-44220663-2
-    verify: 
-    ad-client: 
-    ad-slot: 
-  bing-verify: 
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
