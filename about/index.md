@@ -74,8 +74,8 @@ The folks that make **electronut Labs** tick.
         Smitten with electronics since childhood, Mahesh has managed to make
         himself even more dangerous by learing some programming. Loves
         photography, reading
-        (especially Sci-Fi), art, and good cinema.
-        Has a tendency to mutter "comma, space!" while reading articles
+        (especially Sci-Fi), art, and good cinema. This author of *Python Playground* (No Starch Press, USA)
+        has a tendency to mutter "comma, space!" while reading articles
         written by others.
         </td>
 </tr>
@@ -87,11 +87,11 @@ The folks that make **electronut Labs** tick.
         </td>
 
         <td style="height: 150px;padding-top:20px;vertical-align: top;">
-        <strong>Rishi Shukla</strong>, <i>Intern</i>. <br/>
-        Only a few months away from graduation, this young engineer is learning
-        electronics and programming at an alarming rate. He keeps the energy
-        levels high at the lab. When he's not erasing bootloaders, his mind is
-        on sketching, sports, gaming, or motorbikes with large engines.
+        <strong>Rishi Shukla</strong>, <i>Embedded Systems Engineer</i>. <br/>
+        Former Intern and now an integral part of the team, Rishi takes on 
+        daily challenges in hardware development with enthusiasm. When he's not 
+        erasing bootloaders or routing PCBs, his mind is on sketching, PS4, and 
+        motorbikes with large engines.
         </td>
 </tr>
 
