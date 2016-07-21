@@ -70,11 +70,11 @@ The folks that make **electronut Labs** tick.
         </td>
 
         <td style="height: 150px;padding-top:20px;vertical-align: top;">
-        <strong>Mahesh Venkitachalam</strong>, <i>Founder & Chief TroubleMaker</i>. <br/>
+        <strong>Mahesh Venkitachalam</strong>, <i>Founder</i>. <br/>
         Smitten with electronics since childhood, Mahesh has managed to make
         himself even more dangerous by learing some programming. Loves
         photography, reading
-        (especially Sci-Fi), art, and good cinema. This author of *Python Playground* (No Starch Press, USA)
+        (especially Sci-Fi), art, and good cinema. This author of <i>Python Playground</i> (No Starch Press, USA)
         has a tendency to mutter "comma, space!" while reading articles
         written by others.
         </td>
