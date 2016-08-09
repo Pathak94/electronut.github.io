@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Consulting
-tags: [consulting, contract, custom, job]
+tags: [BLE, WiFi, AVR, ARM, Nordic, design, software, firmware, consulting, contract, custom]
 modified: 2015-09-24
 comments: false
 image:
@@ -17,6 +17,6 @@ Press, USA), and the creator of [snapVCC][1].
 I am available for consulting and custom work in the area of
 microcontrollers and firmware development - WiFi (ESP8266, CC3200), BLE (Nordic), and Atmel AVR.
 
-For project inquiries, contact me at <a href="mailto:info@electronut.in">info@electronut.in</a> 
+For project inquiries, contact me at <a href="mailto:info@electronut.in">info@electronut.in</a>
 
 [1]: https://www.crowdsupply.com/electronut/snapvcc/
