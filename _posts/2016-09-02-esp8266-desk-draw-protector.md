@@ -58,7 +58,7 @@ point GPIO16 is pulled HIGH, which turns Q2 ON and allows the reset to happen.
 
 Here's a real test using my trusty Saleae logic analyzer.
 
-![signals](/images/2016/09/ddp-signals.png))
+![signals](/images/2016/09/ddp-signals.png)
 
 The second signal is the output at the collector of Q1 and the first signal,
 at the RESET line. You can see how a HIGH to LOW transition is converted
