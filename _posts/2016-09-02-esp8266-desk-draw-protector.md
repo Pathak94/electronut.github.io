@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Desk Draw Protector Using ESP8266
+title: A Desk Drawer Protector Using ESP8266
 excerpt: "LDR + Sparkfun ESP8266 Thing + IFTTT => protection from desk drawer marauders."
 tags: [ESP8266, WiFi, IFTTT, LDR]
 categories: [Electronics]
