@@ -1,11 +1,11 @@
 ---
 layout: post
-title: An IoT Temperature Monitor for my Balcony Garden
+title: An ESP8266 IoT Temperature Monitor for my Balcony Garden
 excerpt: "An Internet of Things (IoT) device that plots temperature data on thingspeak.com using an ESP8266 WiFi module, an Ardunino Pro Mini clone, and an LM35 sensor.."
 tags: [LM35, ESP8266, Arduino, IoT, temperature, sensor, WiFi]
 categories: [Circuits]
 comments: true
-modified: 2015-01-18
+modified: 2016-09-02
 image:
   feature: header.jpg
 ---
@@ -62,7 +62,7 @@ Here is the Arduino code.
 
 // lm35_iot.ino
 //
-// Plot LM35 data on thingspeak.com using an Arduino Pro Mini 
+// Plot LM35 data on thingspeak.com using an Arduino Pro Mini
 // and an ESP8266 WiFi module.
 //
 // Author: Mahesh Venkitachalam
@@ -72,7 +72,7 @@ Here is the Arduino code.
 #include <stdlib.h>
 #include <Narcoleptic.h>
 
-// LED 
+// LED
 int ledPin = 13;
 // LM35 analog input
 int lm35Pin = 0;
@@ -91,22 +91,22 @@ void setup() {
   // set outputs
   pinMode(ledPin, OUTPUT);    
   pinMode(chipEnablePin, OUTPUT);    
-  
+
   // enable debug serial
-  Serial.begin(9600); 
+  Serial.begin(9600);
   // enable software serial
   ser.begin(9600);
-  
+
   // reset ESP8266
   ser.println("AT+RST");
 }
 
-// the loop 
+// the loop
 void loop() {
-  
+
   // enable ESP8266
   digitalWrite(chipEnablePin, HIGH);   
-  
+
   // reset ESP8266
   ser.println("AT+RST");
 
@@ -132,20 +132,20 @@ void loop() {
   // convert to string
   char buf[16];
   String strTemp = dtostrf(temp, 4, 1, buf);
-  
+
   Serial.println(strTemp);
-  
+
   // TCP connection
   String cmd = "AT+CIPSTART=\"TCP\",\"";
   cmd += "184.106.153.149"; // api.thingspeak.com
   cmd += "\",80";
   ser.println(cmd);
-   
+
   if(ser.find("Error")){
     Serial.println("AT+CIPSTART error");
     return;
   }
-  
+
   // prepare GET string
   String getStr = "GET /update?api_key=";
   getStr += apiKey;
@@ -166,14 +166,14 @@ void loop() {
     // alert user
     Serial.println("AT+CIPCLOSE");
   }
-    
+
   // this delay is required before disabling the ESP8266 chip
   delay(1000);
-  
+
   // disable ESP8266
   digitalWrite(chipEnablePin, LOW);   
 
-  // deep sleep 
+  // deep sleep
   nsleep(10);
 }
 
@@ -181,7 +181,7 @@ void loop() {
 // Narcoleptic.delay deosn't seem to work for large values
 void nsleep(int nMinutes) {
   for (int i = 0; i < 3*nMinutes; i++) {
-    Narcoleptic.delay(20000); 
+    Narcoleptic.delay(20000);
   }
 }
 

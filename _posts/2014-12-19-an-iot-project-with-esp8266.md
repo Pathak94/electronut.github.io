@@ -5,7 +5,7 @@ excerpt: "Plotting LM35 temperature data on ThingSpeak with an Arduino and ESP82
 tags: [ESP8266, WiFi, IoT, Internet Of Things, Arduino, LM35, ThingSpeak]
 categories: [Arduino, Circuits]
 comments: true
-#modified: 2014-12-15
+modified: 2016-09-02
 image:
   feature: header.jpg
 ---
@@ -14,6 +14,17 @@ image:
 <br />
 <br />
 
+<hr/>
+<hr/>
+## Note
+
+This is one of my older ESP8266 articles. Please check out my more recent
+ESP8266 projects below:
+
+- [A Desk Drawer Protector Using ESP8266][8]
+- [An ESP8266 IoT Temperature Monitor for my Balcony Garden][9]
+<hr/>
+<hr/>
 
 ### The ESP8266 WiFi Module
 
@@ -89,7 +100,7 @@ OK
 {% endraw %}
 {% endhighlight %}
 
-Now, let's get the operation mode. 
+Now, let's get the operation mode.
 
 {% highlight HTML %}
 {% raw %}
@@ -185,7 +196,7 @@ to the WiFi network.
 
 // esp8266_test.ino
 //
-// Plot LM35 data on thingspeak.com using an Arduino and an ESP8266 WiFi 
+// Plot LM35 data on thingspeak.com using an Arduino and an ESP8266 WiFi
 // module.
 //
 // Author: Mahesh Venkitachalam
@@ -194,7 +205,7 @@ to the WiFi network.
 #include <SoftwareSerial.h>
 #include <stdlib.h>
 
-// LED 
+// LED
 int ledPin = 13;
 // LM35 analog input
 int lm35Pin = 0;
@@ -212,18 +223,18 @@ void setup() {
   pinMode(ledPin, OUTPUT);    
 
   // enable debug serial
-  Serial.begin(9600); 
+  Serial.begin(9600);
   // enable software serial
   ser.begin(9600);
-  
+
   // reset ESP8266
   ser.println("AT+RST");
 }
 
 
-// the loop 
+// the loop
 void loop() {
-  
+
   // blink LED on board
   digitalWrite(ledPin, HIGH);   
   delay(200);               
@@ -246,20 +257,20 @@ void loop() {
   // convert to string
   char buf[16];
   String strTemp = dtostrf(temp, 4, 1, buf);
-  
+
   Serial.println(strTemp);
-  
+
   // TCP connection
   String cmd = "AT+CIPSTART=\"TCP\",\"";
   cmd += "184.106.153.149"; // api.thingspeak.com
   cmd += "\",80";
   ser.println(cmd);
-   
+
   if(ser.find("Error")){
     Serial.println("AT+CIPSTART error");
     return;
   }
-  
+
   // prepare GET string
   String getStr = "GET /update?api_key=";
   getStr += apiKey;
@@ -280,7 +291,7 @@ void loop() {
     // alert user
     Serial.println("AT+CIPCLOSE");
   }
-    
+
   // thingspeak needs 15 sec delay between updates
   delay(16000);  
 }
@@ -335,3 +346,5 @@ the ease of using it that way.
 [5]: https://github.com/themadinventor/esptool/
 [6]: http://electronut.in/dht11-rpi-cloud-plot/
 [7]: http://freeware.the-meiers.org/
+[8]: http://electronut.in/esp8266-desk-draw-protector/
+[9]: http://electronut.in/IoT-temp-sensor/
