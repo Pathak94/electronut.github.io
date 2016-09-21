@@ -29,4 +29,18 @@ For project inquiries, contact me at <a href="mailto:info@electronut.in">info@el
 
 <hr/>
 
+*Over the last year, I've had Mahesh work on a web site
+development project for me. I have been very pleased with
+the results and the quality of communications with him, and
+resolving issues with project specifications/requirements.
+He produced results in a timely manner, provided well written
+documentation, and communicated fluently in English.
+He also provided support as needed. I am currently planning
+to engage him on another project to leverage his skills in
+Python and embedded processor systems development.*
+
+** Philip - Fliptronics**
+
+<hr/>
+
 [1]: https://www.crowdsupply.com/electronut/snapvcc/
