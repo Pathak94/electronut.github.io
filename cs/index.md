@@ -23,6 +23,8 @@ For project inquiries, contact me at <a href="mailto:info@electronut.in">info@el
 
 ## Customer Testimonials
 
+<hr/>
+
 *Electronut Labs delivered excellent results and in a very short time frame. Our original design concept took a last minute turn and left my team and I with a platform we knew very little about…BLE. Electronut labs was able to write us the code we needed using the hardware that was required and got us up and running. Their documentation of the process was clean and neat. The communication was easy even though we are on separate sides of the world. I will be using Electronut Labs in the future for sure.*
 
 **Carl – Webb Wheel Products**
