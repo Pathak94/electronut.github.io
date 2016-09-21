@@ -39,7 +39,7 @@ He also provided support as needed. I am currently planning
 to engage him on another project to leverage his skills in
 Python and embedded processor systems development.*
 
-** Philip - Fliptronics**
+**Philip - Fliptronics**
 
 <hr/>
 
