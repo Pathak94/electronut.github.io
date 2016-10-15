@@ -38,24 +38,6 @@ Email: info@electronut.in
 
 <hr/>
 
-## Jobs
-
-We now have seed funding, and have started our journey to build an interesting, useful IoT device.
-We are currently looking for a software engineer to join our team, who can help us with mobile apps and cloud integration.
-
-Must Have Requirements:
-
-- Expertise in JavaScript, node.js, and associated web technologies.
-- Familiarity with Ionic/Angular and PhoneGap/Cordova.
-- Familiarity with AWS.
-- Familiarity with Python.
-- Published mobile/web Apps or open source projects that can demonstrate coding abilities.
-- An interest in electronics hardware. Hands on experience with Arduino is a plus!
-
-Interested? Write to us at **info@electronut.in**
-
-<hr/>
-
 # People
 
 The folks that make **electronut Labs** tick.
