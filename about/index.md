@@ -70,13 +70,26 @@ The folks that make **electronut Labs** tick.
 
         <td style="height: 150px;padding-top:20px;vertical-align: top;">
         <strong>Rishi Shukla</strong>, <i>Embedded Systems Engineer</i>. <br/>
-        Former Intern and now an integral part of the team, Rishi takes on 
-        daily challenges in hardware development with enthusiasm. When he's not 
-        erasing bootloaders or routing PCBs, his mind is on sketching, PS4, and 
+        Former Intern and now an integral part of the team, Rishi takes on
+        daily challenges in hardware development with enthusiasm. When he's not
+        erasing bootloaders or routing PCBs, his mind is on sketching, PS4, and
         motorbikes with large engines.
         </td>
 </tr>
 
+<!-- row #2 -->
+<tr>
+        <td style="width: 150px; height: 150px;margin:auto;">
+        <img src="/images/2016/01/siva-portrait.jpg" style = "border-radius: 10%;" />
+        </td>
+
+        <td style="height: 150px;padding-top:20px;vertical-align: top;">
+        <strong>Sivaprakash S</strong>, <i>Hardware Engineer</i>. <br/>
+        Siva is helping us with PCB design and electronics prototyping. His
+        favourite activities are wrestling with kicad and watching quality
+        Tamil movies.
+        </td>
+</tr>
 
 </table>
 
