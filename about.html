@@ -1,0 +1,175 @@
+---
+layout: default
+section_id: about
+skills:
+  - title: Innovation
+    percent: 97
+  - title: Hardware Design
+    percent: 83
+  - title: Firmware Design
+    percent: 89
+  - title: BS
+    percent: 7
+
+members:
+  - name: Mahesh Venkitachalam
+    position: Founder & Chief Engineer
+    desc:
+      Smitten with electronics since childhood, Mahesh has managed to make
+      himself even more dangerous by learing some programming. Loves photography,
+      reading (especially Sci-Fi), art, and good cinema. This author of
+      Python Playground (No Starch Press, USA) has a tendency to
+      mutter "comma, space!" while reading articles written by others.
+    avatar: images/about/mahesh-portrait.jpg
+    socials:
+      - icon_class: fa fa-twitter
+        url: https://twitter.com/electronutLabs
+  - name: Rishi Shukla
+    position: Embedded Systems Engineer
+    desc:
+      Former Intern and now an integral part of the team, Rishi takes on daily
+      challenges in hardware development with enthusiasm. When he's not erasing
+      bootloaders or assembling robots, his mind is on sketching, PS4, and motorbikes
+      with large engines.
+    avatar: images/about/rishi-portrait.png
+    socials:
+      - icon_class: fa fa-twitter
+        url: https://twitter.com/rishi99es
+  - name: Shivaprakash S
+    position: Hardware Engineer
+    desc:
+      Siva is helping us with PCB design and electronics prototyping. His
+      favourite activities are wrestling with kicad and watching quality Tamil movies.
+    avatar: images/about/siva-portrait.jpg
+    socials:
+      - icon_class: fa fa-twitter
+        url: https://twitter.com/SivaPrakazh
+
+desc:
+  Electronut Labs is the creation of <strong>Mahesh Venkitachalam</strong> - programmer, writer,
+  photographer and electronics hacker based in Bengaluru, India. We are a small
+  business focused on creating unique, useful electronics hardware and educational
+  content for Makers worldwide.
+---
+
+<div class='full' style='background: #333'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h2 style='color: #fff;'>About</h2>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+</div>
+<div class='full'>
+  <div class='row'>
+    <div class='medium-6 columns'>
+      <h3>Who We Are</h3>
+      <div class='spacing'></div>
+      <p>{{ page.desc }} </p>
+      <div class='spacing'></div>
+      <h3>Consulting</h3>
+      <div class='spacing'></div>
+      <p>
+        We are available for consulting and custom work in the area of
+        microcontrollers and firmware development For project inquiries,
+        email us at <strong>info@electronut.in</strong>.
+      </p>
+      <div class='two spacing'></div>
+    </div>
+    <div class='medium-6 columns'>
+      <h3>Our skills</h3>
+      <div class='spacing'></div>
+      <div class='mod modBarGraph'>
+        <ul class='bars'>
+          {% for skill in page.skills %}
+            <li>
+              <h4 style=''>
+                {{skill.title}}
+                <strong>{{skill.percent}}%</strong>
+              </h4>
+              <p class='highlighted' data-percent='{{skill.percent}}'></p>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class='two spacing'></div>
+<div class='full' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h3>The team</h3>
+      <div class='spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    {% for member in page.members %}
+      <div class='small-6 medium-3 large-3 columns'>
+        <div class='mod modTeamMember style-2'>
+          <div class='member'>
+            <img class="avatar" alt="" src="{{site.url}}/{{member.avatar}}" />
+            <div class='overlay'>
+              <ul class='socials'>
+                {% for social in member.socials %}
+                  <li>
+                    <a href='{{social.url}}'>
+                      <i class='{{social.icon_class}}'></i>
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+          <h3>{{member.name}}</h3>
+          <p class='position'>{{member.position}}</p>
+          <p>{{member.desc}}</p>
+          <div class='two spacing'></div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <div class='two spacing'></div>
+</div>
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h3>Client Testimonials</h3>
+      <div class='spacing'></div>
+      <p>
+        <em>
+        Electronut Labs delivered excellent results and in a very short time
+        frame. Our original design concept took a last minute turn and left
+        my team and I with a platform we knew very little about…BLE.
+        Electronut labs was able to write us the code we needed using the
+        hardware that was required and got us up and running. Their
+        documentation of the process was clean and neat. The communication was
+        easy even though we are on separate sides of the world. I will be using
+        Electronut Labs in the future for sure.
+        </em>
+      </p>
+      <p>
+        <strong>Carl – Webb Wheel Products</strong>
+      </p>
+
+      <div class='spacing'></div>
+
+      <p>
+        <em>
+        Over the last year, I’ve had Mahesh work on a web site development
+        project for me. I have been very pleased with the results and the
+        quality of communications with him, and resolving issues with project
+        specifications/requirements. He produced results in a timely manner,
+        provided well written documentation, and communicated fluently in English.
+        He also provided support as needed. I am currently planning to engage
+        him on another project to leverage his skills in Python and
+        embedded processor systems development.
+        </em>
+      </p>
+      <p>
+        <strong>Philip - Fliptronics</strong>
+      </p>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>

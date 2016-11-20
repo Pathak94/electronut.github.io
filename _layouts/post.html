@@ -1,0 +1,54 @@
+---
+layout: blog
+section_id: blog
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-9 columns'>
+      <div class='mod modBlogPost big no_bg'>
+
+        <div class='content'>
+          <p class='info'>
+            <span>{{page.date | date: "%B %d, %Y" }}</span>
+            |
+            <span>
+              {% for cat in page.categories %}
+                <a href="#">{{cat}}</a>
+                {% unless forloop.last %}
+                    ,
+                {% endunless %}
+              {% endfor %}
+            </span>
+            |
+          </p>
+          <h3><a href="{{page.url}}">{{page.title}}</a></h3>
+          {{ content }}
+          <hr/>
+          <h4>Questions/Comments</h4>
+
+          <p>
+          We love hearing from our readers. Email us at
+          <strong>info@electronut.in</strong> for questions or comments on this article.
+          If you found this article useful, please support us by buying some of
+          our hardware products.
+          </p>
+
+        </div>
+      </div>
+      <div class='two spacing'></div>
+    </div>
+    <div class='large-3 columns' id='sidebar'>
+      {% include sidebar.html %}
+    </div>
+  </div>
+</div>
+<div class='full no-padding' style='background: #111'>
+  <div class='two spacing'></div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <p>2016 {{site.title}}. All rights reserved.</p>
+    </div>
+  </div>
+  <div class='spacing'></div>
+</div>

@@ -1,0 +1,15 @@
+- name: Home
+  path:
+  section_id: home
+- name: Products
+  children:
+    - name: snapVCC
+      path: https://www.crowdsupply.com/electronut-labs/snapvcc
+    - name: ZeroDriver
+      path: https://www.crowdsupply.com/electronut-labs/zerodriver
+- name: Blog
+  path: blog/
+  section_id: blog
+- name: About
+  path: about/
+  section_id: about

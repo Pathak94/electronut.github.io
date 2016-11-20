@@ -1,0 +1,98 @@
+---
+layout: default
+section_id: home
+works:
+  - image: images/home/logo.png
+    class: web-design print
+    title:
+    desc:
+    url:
+  - image: images/home/snapVCC-1.2.jpg
+    class: graphic-design
+    title: snapVCC
+    desc: "3.3/5 V regulator that snaps on to your 9V battery."
+    url: https://www.crowdsupply.com/electronut-labs/snapvcc
+  - image: images/home/zd.jpg
+    class: brand wide
+    title: ZeroDriver
+    desc: "Arduino Zero compatible dual motor driver."
+    url: https://www.crowdsupply.com/electronut-labs/zerodriver
+  - image: images/home/pp.jpg
+    class: web-design print
+    title: Python Playground
+    desc: "Our bestselling book of Python projects."
+    url: https://www.nostarch.com/pythonplayground
+  - image: images/home/tinyDriver.jpg
+    class: web-design print
+    title: TinyDriver
+    desc: "Attiny84 based motor driver."
+    url: https://hackaday.io/project/10077-tinydriver
+  - image: images/home/glo.jpg
+    class: web-design print
+    title: glo
+    desc: "ATtiny13 based programmable RGB LED."
+    url: https://hackaday.io/project/18083-glo
+  - image: images/home/blebot.png
+    class: web-design wide
+    title: BLEBot
+    desc: "A BLE robot based on nRF51."
+    url: blebot/
+  - image: images/home/aaboost.jpg
+    class: web-design print
+    title: AABoost
+    desc: "Boost converter for an AA Battery"
+    url: https://hackaday.io/project/7756-aaboost
+  - image: images/home/iott-device.jpg
+    class: web-design wide
+    title: IoT Device
+    desc: "Iot with nRF8001 and Arduino."
+    url: iot-triad-part-1/
+  - image: images/home/iot-device.jpg
+    class: web-design print
+    title: ESP8266 IoT
+    desc: "An IoT temperature monitor for the balcony garden."
+    url: IoT-temp-sensor/
+  - image: images/home/flasher.jpg
+    class: web-design print
+    title: Nostalgia
+    desc: "A two transistor LED flasher circuit."
+    url: nostalgia-a-two-transistor-led-flasher-circuit/
+  - image: images/home/dht11.jpg
+    class: web-design print
+    title: DHT11
+    desc: "Talking to the DHT11 temperature/humidity sensor."
+    url: talking-to-dht11-humidity-temperature-sensor/
+  - image: images/home/bb.png
+    class: web-design print
+    title: Blinky Badge
+    desc: "A soldering badge for kids and beginners."
+    url: blinky-badge/
+  - image: images/home/attiny10-finger.jpg
+    class: web-design print
+    title: ATtiny10
+    desc: "Programming ATtiny10 using TPI."
+    url: attiny10-hello/
+  - image: images/home/koch.png
+    class: web-design print
+    title: Koch
+    desc: "Koch snowflake & the Thue-Morse sequence."
+    url: koch-snowflake-and-the-thue-morse-sequence/
+---
+
+<div class='mod modMasonryGallery'>
+  <ul class='gallery'>
+    {% for work in page.works %}
+      <li class='{{work.class}}'>
+        <a href='{{work.url}}'>
+          <img alt="" src="{{work.image}}" />
+          <div class='overlay'>
+            <div class='thumb-info'>
+              <h3>{{work.title}}</h3>
+              <p>{{work.desc}}</p>
+            </div>
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
