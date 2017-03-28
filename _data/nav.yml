@@ -1,15 +1,13 @@
 - name: Home
   path:
   section_id: home
-- name: Products
+- name: Projects
   children:
-    - name: snapVCC
-      path: https://www.crowdsupply.com/electronut-labs/snapvcc
-    - name: ZeroDriver
-      path: https://www.crowdsupply.com/electronut-labs/zerodriver
+    - name: hackaday.io
+      path: https://hackaday.io/projects/hacker/72289
+- name: Consulting
+  path: consulting/
+  section_id: consulting
 - name: Blog
   path: blog/
   section_id: blog
-- name: About
-  path: about/
-  section_id: about
