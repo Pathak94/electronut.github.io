@@ -1,10 +1,12 @@
 - name: Home
   path:
   section_id: home
-- name: Projects
+- name: Products
   children:
-    - name: hackaday.io
-      path: https://hackaday.io/projects/hacker/72289
+    - name: bluey
+      path: bluey/
+    - name: snapVCC
+      path: https://www.crowdsupply.com/electronut-labs/snapvcc
 - name: Consulting
   path: consulting/
   section_id: consulting

@@ -1,0 +1,130 @@
+---
+layout: default
+section_id: bluey
+
+works:
+  - image: /images/bluey/bluey-box.jpg
+    class: graphic-design
+    title: Bluey
+    desc:
+  - image: /images/bluey/bluey-beacon.jpg
+    class: web-design print
+    title: Beacon
+    desc:
+  - image: /images/bluey/bluey1.1.jpg
+    class: graphic-design
+    title: Bluey
+    desc:
+  - image: /images/bluey/bluey-bot.jpg
+    class: graphic-design
+    title: Robot
+    desc:
+---
+
+
+<div class='full' style='background: #333'>
+  <div class='row'>
+    <div class='large-12 columns'>
+
+      <h2 style='color: #fff;'>Bluey</h2>
+
+    </div>
+  </div>
+</div>
+
+<div class='full' style='background: #ffffff'>
+    <div class='mod modMasonryGallery'>
+      <ul class='gallery'>
+        {% for work in page.works %}
+          <li class='{{work.class}}'>
+            <a href=''>
+              <img alt="" src="{{work.image}}" />
+              <div class='overlay'>
+                <div class='thumb-info'>
+                  <h3>{{work.title}}</h3>
+                  <p>{{work.desc}}</p>
+                </div>
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+
+    <p>
+      <strong>Bluey</strong> is a BLE (Bluetooth Low Energy) development board with Temperature,
+      Humidity, Ambient Light and Accelerometer sensors. Bluey uses the Nordic
+      nRF52832 BLE SoC (System on a Chip) which has an ARM Cortex-M4F CPU and a
+      2.4 GHz radio that supports BLE and other proprietary wireless protocols.
+      It also supports NFC, and in fact the board comes with a built-in NFC PCB antenna.
+    </p>
+
+    <h3>Specifications </h3>
+
+    <ul>
+        <li>
+          Nordic nRF52832 QFAA BLE SoC (512k RAM / 64k Flash)
+        </li>
+        <li>
+        TI HDC1010 Temperature/Humidity sensor
+        </li>
+        <li>
+        APDS-9300-020 ambient light sensor
+        </li>
+        <li>
+        ST Micro LSM6DS3 accelerometer
+        </li>
+        <li>
+        CREE RGB LED
+        </li>
+        <li>
+        CP2104 USB interface
+        </li>
+        <li>
+        2 push buttons
+        </li>
+        <li>
+        Coin cell holder
+        </li>
+        <li>
+        Micro SD slot
+        </li>
+        <li>
+        2.4 GHz PCB antenna
+        </li>
+        <li>
+        NFC PCB antenna
+        </li>
+    </ul>
+
+
+      <h3>Getting Started with Bluey</h3>
+
+      <p>
+      <strong>Bluey</strong> is Open Source Hardware, and we've developed a lot of
+      interesting projects around it. To get started, read documentation and learn more,
+      visit the <a href = "https://github.com/electronut/electronutlabs-bluey"> bluey github repository </a>.
+      </p>
+
+      <h3>Purchase Bluey</h3>
+
+      <p>
+        <strong>Bluey</strong> is available for purchase for international customers
+        from our <a href="https://www.tindie.com/stores/ElectronutLabs/"> Tindie store </a>.
+        Customers in India can purchase Bluey from our <a href = "https://www.instamojo.com/ElectronutLabs/bluey-nrf52832-ble-development-board-with-se/">
+          Instamojo store</a>. We also provide discounts for bulk purchases. Do email us at <strong>info@electronut.in</strong>
+          if you have any questions.
+      </p>
+
+
+        <a href="https://www.tindie.com/stores/ElectronutLabs/?ref=offsite_badges&utm_source=sellers_ElectronutLabs&utm_medium=badges&utm_campaign=badge_large"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="I sell on Tindie" width="200" height="104"></a>=
+     </div>
+    </div>
+</div>
+
+<div class='spacing'></div>
