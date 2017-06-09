@@ -1,98 +1,140 @@
 ---
 layout: default
 section_id: home
+
 works:
-  - image: images/home/zd-sm.jpg
+  - image: /images/consulting/flowaBLE.jpg
     class: graphic-design
-    title: ZeroDriver
-    desc: "Arduino Zero-compatible dual motor driver board for robotics and mechatronics."
-    url: https://hackaday.io/project/18253-zerodriver
-  - image: images/home/snapVCC-1.2.jpg
-    class: graphic-design
-    title: snapVCC
-    desc: "3.3/5 V regulator that snaps on to your 9V battery."
-    url: https://www.crowdsupply.com/electronut-labs/snapvcc
-  - image: images/home/bluey.jpg
-    class: brand wide
-    title: Bluey
-    desc: "Nordic nRF52832 BLE IoT board with Temperature/Humidity/Light/Accelerometer sensors."
-    url: bluey/
-  - image: images/home/pp.jpg
-    class: web-design print
-    title: Python Playground
-    desc: "Our bestselling book of Python projects."
-    url: https://www.nostarch.com/pythonplayground
-  - image: images/home/tinyDriver.jpg
-    class: web-design print
-    title: TinyDriver
-    desc: "Attiny84 based motor driver."
-    url: https://hackaday.io/project/10077-tinydriver
-  - image: images/home/glo.jpg
-    class: web-design print
-    title: glo
-    desc: "ATtiny13 based programmable RGB LED."
-    url: https://hackaday.io/project/18083-glo
-  - image: images/home/blebot.png
-    class: web-design wide
-    title: BLEBot
-    desc: "A BLE robot based on nRF51."
-    url: blebot/
-  - image: images/home/aaboost.jpg
-    class: web-design print
-    title: AABoost
-    desc: "Boost converter for an AA Battery"
-    url: https://hackaday.io/project/7756-aaboost
-  - image: images/home/iott-device.jpg
-    class: web-design wide
-    title: IoT Device
-    desc: "Iot with nRF8001 and Arduino."
-    url: iot-triad-part-1/
-  - image: images/home/iot-device.jpg
-    class: web-design print
-    title: ESP8266 IoT
-    desc: "An IoT temperature monitor for the balcony garden."
-    url: IoT-temp-sensor/
-  - image: images/home/flasher.jpg
-    class: web-design print
-    title: Nostalgia
-    desc: "A two transistor LED flasher circuit."
-    url: nostalgia-a-two-transistor-led-flasher-circuit/
-  - image: images/home/dht11.jpg
-    class: web-design print
-    title: DHT11
-    desc: "Talking to the DHT11 temperature/humidity sensor."
-    url: talking-to-dht11-humidity-temperature-sensor/
-  - image: images/home/bb.png
-    class: web-design print
-    title: Blinky Badge
-    desc: "A soldering badge for kids and beginners."
-    url: blinky-badge/
-  - image: images/home/attiny10-finger.jpg
-    class: web-design print
-    title: ATtiny10
-    desc: "Programming ATtiny10 using TPI."
-    url: attiny10-hello/
-  - image: images/home/logo.png
-    class: web-design print
-    title:
+    title: BLE consulting
     desc:
-    url:
+  - image: /images/consulting/flowmeter.jpg
+    class: web-design print
+    title: Flow meter
+    desc:
+  - image: /images/consulting/bluey.jpg
+    class: graphic-design
+    title: BLE IoT
+    desc:
+  - image: /images/consulting/ble-proto.jpg
+    class: graphic-design
+    title: BLE prototyping
+    desc:
 ---
 
-<div class='mod modMasonryGallery'>
-  <ul class='gallery'>
-    {% for work in page.works %}
-      <li class='{{work.class}}'>
-        <a href='{{work.url}}'>
-          <img alt="" src="{{work.image}}" />
-          <div class='overlay'>
-            <div class='thumb-info'>
-              <h3>{{work.title}}</h3>
-              <p>{{work.desc}}</p>
-            </div>
-          </div>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
+<div class='full' style='background: #333'>
+  <div class='row'>
+
+      <h2 style='color: #fff;'>Embedded Systems Consulting</h2>
+
+  </div>
+  <div class='two spacing'></div>
+</div>
+
+<div class='full' style='background: #f5f5f5'>
+    <div class='mod modMasonryGallery'>
+      <ul class='gallery'>
+        {% for work in page.works %}
+          <li class='{{work.class}}'>
+            <a href=''>
+              <img alt="" src="{{work.image}}" />
+              <div class='overlay'>
+                <div class='thumb-info'>
+                  <h3>{{work.title}}</h3>
+                  <p>{{work.desc}}</p>
+                </div>
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class='two spacing'></div>
+
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h3>Who We Are</h3>
+      <div class='spacing'></div>
+      <p>
+        Electronut Labs is the creation of <strong>Mahesh Venkitachalam</strong> - programmer,
+        writer, photographer and electronics hacker based in Bengaluru, India.
+        We have a passion for electronics, an eye for design, and are uncompromising about
+        the quality of our products. We are constantly working to bring our innovative ideas in hardware to market.
+      </p>
+
+      <p>
+        Need help with a hardware project or product? Drop us an email at
+        <strong>info@electronut.in</strong>. We offer consulting services on
+        AVR and Nordic nRF BLE - including hardware design, firmware development, prototyping,
+        PCB design/assembly, sourcing and manufacturing. We can help you
+        bring your product to market!
+      </p>
+      <div class='two spacing'></div>
+
+   </div>
+  </div>
+</div>
+<div class='spacing'></div>
+
+<hr />
+<hr />
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h3>Client Testimonials</h3>
+      <div class='spacing'></div>
+      <p>
+        <em>
+        Electronut Labs delivered excellent results and in a very short time
+        frame. Our original design concept took a last minute turn and left
+        my team and I with a platform we knew very little about…BLE.
+        Electronut labs was able to write us the code we needed using the
+        hardware that was required and got us up and running. Their
+        documentation of the process was clean and neat. The communication was
+        easy even though we are on separate sides of the world. I will be using
+        Electronut Labs in the future for sure.
+        </em>
+      </p>
+      <p>
+        <strong>Carl – Webb Wheel Products</strong>
+      </p>
+
+      <div class='spacing'></div>
+
+      <p>
+        <em>
+        Over the last year, I’ve had Mahesh work on a web site development
+        project for me. I have been very pleased with the results and the
+        quality of communications with him, and resolving issues with project
+        specifications/requirements. He produced results in a timely manner,
+        provided well written documentation, and communicated fluently in English.
+        He also provided support as needed. I am currently planning to engage
+        him on another project to leverage his skills in Python and
+        embedded processor systems development.
+        </em>
+      </p>
+      <p>
+        <strong>Philip - Fliptronics</strong>
+      </p>
+
+      <div class='spacing'></div>
+
+      <p>
+        <em>
+          Electronut Labs has developed a great solution for wireless monitoring of sensors. The integrated solution encompassed interfacing hardware, embedded code and an android app for monitoring the sensor. The entire system was delivered in a compact custom package in a very short time frame. Will definitely engage with them for our hardware projects.
+        </em>
+      </p>
+      <p>
+        <strong>Raviprakash - Hindustan Unilever</strong>
+      </p>
+
+    </div>
+  </div>
+  <div class='four spacing'></div>
+
+
 </div>
