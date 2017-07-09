@@ -109,27 +109,29 @@ built-in WiFi and Bluetooth/BLE.
 
 First, we run **hcidump** to listen in on incoming raw BLE data:
 
-```
+<p>
+<pre>
 pi@raspberrypi:~ $ sudo hcidump --raw
 HCI sniffer - Bluetooth packet analyzer ver 5.43
 device: hci0 snap_len: 1500 filter: 0xffffffff
-
-```
+</pre>
+</p>
 
 Then, we run **hcitool** to scan for BLE devices. Run this in a separate xterm.
 
-```
+<p>
+<pre>
 pi@raspberrypi:~ $ sudo hcitool lescan
 LE Scan ...
 E2:91:9F:03:C5:0D bluey
-
-```
+</pre>
+</p>
 
 You can see that **hcitool** is seeing our beacon. At the same time, you'll
 see a stream of new data in the **hcidump** window:
 
-```
-
+<p>
+<pre>
 < 01 0B 20 07 01 10 00 10 00 00 00
 > 04 0E 04 01 0B 20 00
 < 01 0C 20 02 01 01
@@ -138,7 +140,8 @@ see a stream of new data in the **hcidump** window:
   04 10 FF FF FF 66 60 D2 7C 02 E3 00 AE A9 B1 B2 B3 B4 06 08
   62 6C 75 65 79 CF
 
-```
+</pre>
+</p>
 
 The last three lines of data are what we are concerned about. **62 6C 75 65 79**
 above - looks familiar? Those are the ASCII hex codes for 'b', 'l', 'u', 'e', 'y' -
@@ -146,11 +149,11 @@ above - looks familiar? Those are the ASCII hex codes for 'b', 'l', 'u', 'e', 'y
 
 The sensor data is in the following bytes:
 
-```
-
+<p>
+<pre>
 1F 03 19 00 00 02 01 04 10 FF FF FF 66 60 D2 7C 02 E3 00 AE A9 B1 B2 B3 B4
-
-```
+</pre>
+</p>
 
 All we need to do is parse this data. So, instead of doing all this manually,
 we're going to write a Python script that will run the BlueZ tools and grab this
