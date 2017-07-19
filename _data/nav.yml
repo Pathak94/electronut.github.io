@@ -8,5 +8,7 @@
   children:
     - name: bluey
       path: bluey/
+    - name: bumpy
+      path: bumpy/
     - name: snapVCC
       path: https://www.tindie.com/products/ElectronutLabs/snapvcc-335-v-regulator-snaps-onto-9v-battery/
