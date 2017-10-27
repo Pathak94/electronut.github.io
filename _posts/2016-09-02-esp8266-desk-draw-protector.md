@@ -7,6 +7,7 @@ categories: [Electronics]
 comments: true
 modified: 2016-09-02
 thumbnail: images/2016/09/ddp-open.jpg
+images: images/2016/09/ddp-open.jpg
 image:
   feature: header.jpg
 ---

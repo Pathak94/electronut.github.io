@@ -1,15 +1,20 @@
 # Site settings
 title: Electronut Labs
+email: info@electronut.in
+description: > # this means to ignore newlines until "baseurl:"
+  Electronut Labs is a company based in Bangalore. We offer consulting services in 
+  Embedded Systems design - helping companies bring their ideas in hardware to market. 
+  We are also big proponents of Open Source and education, and our maker products and 
+  training courses cater to this market. Our passion for hardware ensures that we're not 
+  just content to build for others - we have our own line of well designed, useful 
+  products which keeps us at the cutting edge of technology.
 
 #url:              http://localhost:4000
 url:              http://electronut.in
 
-email: info@electronut.in
-description: > # this means to ignore newlines until "baseurl:"
-  A small business focused on creating unique, useful electronics hardware and
-  educational content for Makers worldwide
 baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
+
 twitter_username: electronutLabs
 github_username:  electronut
 
@@ -17,7 +22,10 @@ github_username:  electronut
 markdown: kramdown
 
 permalink:   /:title/
-gems: [jekyll-paginate]
 
-#paginate: 4
-#paginate_path: "blog/page:num"
+gems: 
+  - jekyll-paginate
+  - jekyll-archives
+
+paginate: 10
+paginate_path: "blog/page:num"

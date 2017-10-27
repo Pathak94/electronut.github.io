@@ -7,6 +7,7 @@ categories: [Circuits]
 comments: true
 modified: 2016-09-02
 thumbnail: images/2015/01/iot-device.jpg
+images: images/2015/01/iot-device.jpg
 ---
 
 ![IoT sensor](/images/2015/01/iot-device.jpg "IoT Temperature Sensor")

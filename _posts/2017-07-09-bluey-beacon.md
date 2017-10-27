@@ -7,6 +7,7 @@ categories: [Electronics]
 comments: false
 modified: 2017-07-09
 thumbnail: images/2017/06/bluey-beacon.png
+images: images/2017/06/bluey-beacon.png
 ---
 
 ![STM32](/images/2017/06/bluey-beacon.png)

@@ -7,6 +7,7 @@ categories: [Electronics]
 comments: true
 modified: 2015-01-17
 thumbnail: images/2016/01/shenzhen-bldg.jpg
+images: images/2016/01/shenzhen-bldg.jpg
 image:
   feature: header.jpg
 ---

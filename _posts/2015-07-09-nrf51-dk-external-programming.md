@@ -7,6 +7,7 @@ categories: [Electronics]
 comments: true
 modified: 2015-09-06
 thumbnail: images/2015/07/nRF51-BO-SWD-DK.jpg
+images: images/2015/07/nRF51-BO-SWD-DK.jpg
 ---
 
 ![nRF51-BO-SWD-DK.](/images/2015/07/nRF51-BO-SWD-DK.jpg "nRF51-BO-SWD-DK.")

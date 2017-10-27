@@ -7,6 +7,7 @@ categories: [Circuits]
 comments: true
 modified: 2014-12-15
 thumbnail: images/2014/12/8-pin-header-hack.jpg
+images: images/2014/12/8-pin-header-hack.jpg
 ---
 
 ![sensor data](/images/2014/12/8-pin-header-hack.jpg "8 Pin Header Hack")

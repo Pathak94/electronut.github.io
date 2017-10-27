@@ -7,6 +7,7 @@ categories: [Raspberry Pi]
 comments: true
 modified: 2014-12-14
 thumbnail: images/2014/12/thingspeak-stream.jpg
+images: images/2014/12/thingspeak-stream.jpg
 ---
 
 ![sensor data](/images/2014/12/thingspeak-stream.jpg "ThingsSpeak.com Plot")

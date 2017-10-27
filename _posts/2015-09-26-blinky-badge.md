@@ -7,6 +7,7 @@ categories: [Electronics]
 comments: true
 modified: 2015-09-26
 thumbnail: images/2015/09/bb.png
+images: images/2015/09/bb.png
 ---
 
 ![Touch Activated Blinky Badge](/images/2015/09/bb.png "Blinky Badge")

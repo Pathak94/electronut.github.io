@@ -7,6 +7,7 @@ categories: [Electronics]
 comments: true
 modified: 2015-06-07
 thumbnail: images/2015/06/atmega32u4-solder1.jpg
+images: images/2015/06/atmega32u4-solder1.jpg
 ---
 
 The Atmel ATmega32u4 gained popularity with its use in the Arduino

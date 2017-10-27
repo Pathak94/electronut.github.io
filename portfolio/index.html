@@ -1,0 +1,86 @@
+---
+layout: default
+title: Portfolio
+section_id: portfolio
+
+works:
+- image: /images/portfolio/tracker_400.jpg
+  title: Tracker
+  link_to: tracker/
+  klass: graphi-design
+  desc: Design &amp; Development
+- image: /images/portfolio/sensei_400.png
+  title: IoT Gas Sensor
+  link_to: gas-sensor/
+  klass: graphi-design
+  desc: Prototype
+- image: /images/portfolio/smartlock_400.jpg
+  title: Smart Lock
+  link_to: smartlock/
+  klass: graphi-design
+  desc: Design &amp; Development
+- image: /images/portfolio/bluey_400.jpg
+  title: Bluey
+  link_to: bluey/
+  klass: graphi-design
+  desc: BLE Dev Board
+- image: /images/portfolio/snapVCC_400.jpg
+  title: snapVCC
+  link_to: snapVCC/
+  klass: graphi-design
+  desc: Bestselling Regulator
+- image: /images/portfolio/bumpy_400.jpg
+  title: Bumpy
+  link_to: bumpy/
+  klass: graphi-design
+  desc: SWD Programmer
+- image: /images/portfolio/flowmeter_400.jpg
+  title: Flow Meter
+  link_to: flowmeter/
+  klass: graphi-design
+  desc: Prototype
+- image: /images/portfolio/force_400.jpg
+  title: Force Sensor
+  link_to: force-sensor/
+  klass: graphi-design
+  desc: Design &amp; Development
+---
+
+
+<div class='full parallax' style='background-image: url(/images/portfolio-bg.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Portfolio" tagline="A sample of our work" color="#000" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+
+<div class='full'>
+  <div class='row'>
+    <div class='mod modGallery'>
+
+      <ul class='gallery large-block-grid-4 medium-block-grid-3 small-block-grid-2'>
+
+        {% for work in page.works %}
+          <li class="{{ work.klass }}">
+            <a href='{{ work.link_to }}'>
+              <img alt="" src="{{ work.image }}" />
+              <div class='overlay'>
+                <div class='thumb-info'>
+                  <h3>{{ work.title }}</h3>
+                  <p>{{ work.desc }}</p>
+                </div>
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+
+      </ul>
+
+    </div>
+  </div>
+
+  <div class='four spacing'></div>
+</div>

@@ -7,6 +7,7 @@ categories: [Electronics]
 comments: true
 modified: 2016-03-17
 thumbnail: images/2016/03/attiny10-finger.jpg
+images: images/2016/03/attiny10-finger.jpg
 ---
 
 ![ATtiny10](/images/2016/03/attiny10-finger.jpg "ATtiny10")

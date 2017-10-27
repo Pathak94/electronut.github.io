@@ -7,6 +7,7 @@ categories: [Electronics]
 comments: true
 modified: 2015-07-25
 thumbnail: images/2015/07/nrf51-rgb-led.jpg
+images: images/2015/07/nrf51-rgb-led.jpg
 ---
 
 ![nRF51-RGB-LED](/images/2015/07/nrf51-rgb-led.jpg "nRF51 RGB LED")

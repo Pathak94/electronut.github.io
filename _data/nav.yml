@@ -1,14 +1,18 @@
 - name: Home
   path:
   section_id: home
+- name: Portfolio
+  path: portfolio/
+  section_id: portfolio
 - name: Blog
   path: blog/
   section_id: blog
-- name: Products
-  children:
-    - name: bluey
-      path: bluey/
-    - name: bumpy
-      path: bumpy/
-    - name: snapVCC
-      path: https://www.tindie.com/products/ElectronutLabs/snapvcc-335-v-regulator-snaps-onto-9v-battery/
+- name: Careers
+  path: careers/
+  section_id: services
+- name: Contact
+  path: contact/
+  section_id: contact
+- name: About
+  path: about/
+  section_id: about

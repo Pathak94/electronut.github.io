@@ -7,6 +7,7 @@ categories: [Electronics]
 comments: true
 modified: 2015-05-22
 thumbnail: images/2015/05/box-final.jpg
+images: images/2015/05/box-final.jpg
 ---
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/xy1e3aNny9s" frameborder="0" allowfullscreen></iframe>

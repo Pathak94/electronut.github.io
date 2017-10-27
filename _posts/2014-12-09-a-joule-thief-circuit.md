@@ -6,6 +6,7 @@ tags: [joule thief, ferrite toroid, boost, circuit]
 comments: false
 #modified: 2014-12-09
 thumbnail: images/2014/12/joule-thief-breadboard.jpg
+images: images/2014/12/joule-thief-breadboard.jpg
 ---
 
 ![ferrite toroid](/images/2014/12/ferrite-toroids.jpg "Ferrite Toroids")

@@ -1,0 +1,137 @@
+---
+layout: default
+title: About
+section_id: about
+skills:
+  - title: Hardware Design
+    percentage: 95
+  - title: Firmware Development
+    percentage: 98
+  - title: Software Development
+    percentage: 90
+  - title: Product Development
+    percentage: 85
+testimonials:
+  - quote: Electronut Labs delivered excellent results and in a very short time frame. Our original design concept took a last minute turn and left my team and I with a platform we knew very little about…BLE. Electronut labs was able to write us the code we needed using the hardware that was required and got us up and running. Their documentation of the process was clean and neat. The communication was easy even though we are on separate sides of the world. I will be using Electronut Labs in the future for sure.
+    author: Carl, Webb Wheel Products
+  - quote: Over the last year, I’ve had Mahesh work on a web site development project for me. I have been very pleased with the results and the quality of communications with him, and resolving issues with project specifications/requirements. He produced results in a timely manner, provided well written documentation, and communicated fluently in English. He also provided support as needed. I am currently planning to engage him on another project to leverage his skills in Python and embedded processor systems development.
+    author: Philip, Fliptronics
+  - quote: Electronut Labs has developed a great solution for wireless monitoring of sensors. The integrated solution encompassed interfacing hardware, embedded code and an android app for monitoring the sensor. The entire system was delivered in a compact custom package in a very short time frame. Will definitely engage with them for our hardware projects.
+    author: Raviprakash, HUL
+---
+
+<div class='full' style='background-image: url(/images/about-bg.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='twelve columns'>
+      {% include section-header.html title="" color="#fff" tagline="" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='medium-6 columns'>
+      <h3>History</h3>
+      <p>
+        Electronut Labs started as a blog on Electronics and Programming. After a long career in the software 
+        industry, Mahesh Venkitachalam wanted to return to his childhood interest in building electronic gadgets. 
+        The projects and articles in the blog gained in popularity, culminating in a book with elements of 
+        programming and hardware (Python Playground, No Starch Press). 
+      </p>
+      <p>
+        Today, Electronut Labs is a company based in Bangalore. We offer consulting services in Embedded 
+        Systems design - helping companies bring their ideas in hardware to market. We are also big 
+        proponents of Open Source and education, and our maker products and training courses cater to 
+        this market. Our passion for hardware ensures that we're not just content to build for others - 
+        we have our own line of well designed, useful products which keeps us at the cutting edge of 
+        technology. 
+      </p>
+    </div>
+    <div class='medium-6 columns'>
+      <h3>Skills</h3>
+      <div class='mod modBarGraph'>
+        <ul class='bars'>
+          {% for skill in page.skills %}
+            <li>
+              <h4 style=''>
+                {{skill.title}}
+                <strong>{{skill.percentage}}%</strong>
+              </h4>
+              <p class='highlighted' data-percent='{{skill.percentage}}'></p>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class='full'>
+  <div class='row'>
+    {% for member in site.data.members %}
+      <div class='small-6 medium-3 large-3 columns'>
+        <div class='mod modTeamMember'>
+          <div class='member'>
+            <img class="avatar" alt="" src="{{ member.avatar }}" />
+            <div class='overlay'>
+              <div class='intro'>
+                <h3>{{member.name}}</h3>
+                <p>{{member.position}}</p>
+                <ul class='socials'>
+                  {% for social in member.socials %}
+                    <li>
+                      <a href='{{social.link}}'>
+                        <i class='fa fa-{{social.icon}}'></i>
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          </div>
+          <p class='centered-text'>{{member.desc}}</p>
+          <div class='two spacing'></div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+
+<div class='full parallax' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <p class='centered-text'>
+        <i class='fa fa-quote-left' style='color: #F9CE06; font-size: 36px;'></i>
+      </p>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="What our clients say" %}
+      <div class='spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modTestimonials'>
+        <div class='row'>
+          <div class='small-12 columns'>
+            <div class='items centered-text'>
+              {% for testimonial in page.testimonials %}
+                <div class='item'>
+                  <p class='quote'>"{{testimonial.quote}}"</p>
+                  <p class='author'>- {{testimonial.author}}</p>
+                  <div class='two spacing'></div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+          <div class='spacing'></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

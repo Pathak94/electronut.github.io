@@ -1,0 +1,41 @@
+- avatar: /images/mahesh.jpg
+  name: Mahesh Venkitachalam
+  position: Founder
+  socials:
+    - link: https://twitter.com/electronutlabs
+      icon: twitter
+    - link: https://github.com/electronut/
+      icon: github
+  desc:
+    Smitten with electronics since childhood. Loves
+    programmming, photography, Sci-Fi and good design. 
+    Author of <i>Python Playground</i> (No Starch Press, USA)
+- avatar: /images/tavish.jpg
+  name: Tavish Naruka
+  position: Systems Engineer
+  socials:
+    - link: https://twitter.com/ntavish
+      icon: twitter
+  desc:
+    Breaking things since 5. An EE by education, who loves computers, programming and open source. Reader of Sci-fi and fantasy, listener of jazz and metal, and doodles sometimes.
+- avatar: /images/siva.jpg
+  name: Sivaprakash S
+  position: Hardware Engineer
+  socials:
+    - link: https://twitter.com/SivaPrakazh
+      icon: twitter
+  desc:
+    Siva is a Jedi at soldering. Ha takes care of all our PCB design and electronics prototyping. 
+    His favourite activities are wrestling with kicad and watching quality
+    Tamil movies.
+- avatar: /images/rishi.jpg
+  name: Rishi Shukla
+  position: Firmware Engineer
+  socials:
+    - link: https://twitter.com/rishi99es
+      icon: twitter
+  desc:
+    Former Intern and now an integral part of the team, Rishi takes on
+    daily challenges in hardware development with enthusiasm. When he's not
+    erasing bootloaders or routing PCBs, his mind is on sketching, PS4, and
+    motorbikes with large engines.

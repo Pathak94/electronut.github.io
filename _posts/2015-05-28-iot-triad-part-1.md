@@ -7,6 +7,7 @@ categories: [Electronics]
 comments: true
 modified: 2015-05-28
 thumbnail: images/2015/05/iott-device.jpg 
+images: images/2015/05/iott-device.jpg 
 ---
 
 <br />

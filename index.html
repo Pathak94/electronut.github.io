@@ -1,140 +1,223 @@
 ---
 layout: default
 section_id: home
+slides:
+  - bg: images/iot1.jpg
+    small_title:
+      klass: bottom-to-top
+      text: Ideas for a
+    title:
+      klass: bottom-to-top
+      text: Connected Planet
 
 works:
-  - image: /images/consulting/flowaBLE.jpg
-    class: graphic-design
-    title: BLE consulting
-    desc:
-  - image: /images/consulting/flowmeter.jpg
-    class: web-design print
-    title: BLE device
-    desc:
-  - image: /images/consulting/bluey.jpg
-    class: graphic-design
-    title: BLE IoT
-    desc:
-  - image: /images/consulting/ble-sl.jpg
-    class: graphic-design
-    title: BLE proto
-    desc:
+  - image: images/portfolio/tracker_400.jpg
+    title: Tracker
+    link_to: portfolio/tracker/
+    klass: graphi-design
+    desc: Design &amp; Development
+  - image: images/portfolio/sensei_400.png
+    title: IoT Gas Sensor
+    link_to: portfolio/gas-sensor/
+    klass: graphi-design
+    desc: Prototype
+  - image: images/portfolio/smartlock_400.jpg
+    title: Smart Lock
+    link_to: portfolio/smartlock/
+    klass: graphi-design
+    desc: Design &amp; Development
+  - image: images/portfolio/bluey_400.jpg
+    title: Bluey
+    link_to: portfolio/bluey/
+    klass: graphi-design
+    desc: BLE Dev Board
+  - image: images/portfolio/snapVCC_400.jpg
+    title: snapVCC
+    link_to: portfolio/snapVCC/
+    klass: graphi-design
+    desc: Bestselling Regulator
+  - image: images/portfolio/bumpy_400.jpg
+    title: Bumpy
+    link_to: portfolio/bumpy/
+    klass: graphi-design
+    desc: SWD Programmer
+  - image: images/portfolio/flowmeter_400.jpg
+    title: Flow Meter
+    link_to: portfolio/flowmeter/
+    klass: graphi-design
+    desc: Prototype
+  - image: images/portfolio/force_400.jpg
+    title: Force Sensor
+    link_to: portfolio/force-sensor/
+    klass: graphi-design
+    desc: Design &amp; Development
 ---
 
-<div class='full' style='background: #333'>
-  <div class='row'>
 
-      <h2 style='color: #fff;'>Embedded Systems Consulting</h2>
+<div class='mod modDefaultSlider'>
+  <div class='sequence' data-autostop='on' data-timeout='0'>
+    <a class='sequence-prev' href='javascript:void(0);'>
+      <span></span>
+    </a>
+    <a class='sequence-next' href='javascript:void(0);'>
+      <span></span>
+    </a>
+    <ul class='sequence-pagination'>
+      {% for slide in page.slides %}
+        {% if forloop.first %}
+          {% assign class = 'current' %}
+        {% else %}
+          {% assign class = '' %}
+        {% endif %}
+        <li class="{{class}}"></li>
+      {% endfor %}
+    </ul>
+    <ul class='sequence-canvas'>
+      {% for slide in page.slides %}
+        {% if forloop.first %}
+          {% assign style = 'static' %}
+        {% else %}
+          {% assign style = '' %}
+        {% endif %}
 
+        <li class='frame {{style}} {{ slide.klass }}'>
+          <div class='bg' style='background-image: url({{ slide.bg}});'></div>
+          <div class='small-title {{ slide.small_title.klass }}'>
+            <div class='row'>
+              <div class='large-12 columns'>
+                <h2 style="color: #000;">{{ slide.small_title.text }}</h2>
+              </div>
+            </div>
+          </div>
+          <div class='title {{ slide.title.klass }}'>
+            <div class='row'>
+              <div class='large-12 columns'>
+                <h2 style="color: #000;">{{ slide.title.text }}</h2>
+              </div>
+            </div>
+          </div>
+          <div class='buttons-wrapper {{ slide.buttons.klass }}'>
+            <div class='row'>
+              <div class='large-12 columns'>
+                <div class='two spacing'></div>
+                {% for button in slide.buttons.items %}
+                  <a class='button {{ button.klass }}' href='{{ button.link_to }}'>{{ button.text }}</a>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
   </div>
-  <div class='two spacing'></div>
 </div>
+
+
+<div class="four spacing"></div>
+
+<div class="row">
+  <div class="medium-3 large-3 columns">
+    {% include icon-text.html title='IoT Solutions' desc='We can help you wade through the complex jargon of IoT, make decisions, and help build customised solutions that empower your business.' icon_class='fa fa-mixcloud' delay='0' shape_class='icon-text-circle' %}
+  </div>
+  <div class="medium-3 large-3 columns">
+    {% include icon-text.html title='Embedded Design' desc='Our expertise in all aspects of embedded development - schematic/PCB design, firmware, prototyping and manufacturing - can help you get your ideas to market quickly.' icon_class='fa fa-microchip' delay='200' shape_class='icon-text-circle' %}
+  </div>
+  <div class="medium-3 large-3 columns">
+    {% include icon-text.html title='Products' desc="Our passion for electronics is evident in the slick hardware we keep creating. It also keeps us at the cutting edge of technology." icon_class='fa fa-rocket' delay='400' shape_class='icon-text-circle' %}
+  </div>
+  <div class="medium-3 large-3 columns">
+    {% include icon-text.html title='Open Source &amp; Education' desc='We believe in giving back to the Maker community - via our publications, Open Source designs, workshops, and training courses for schools and colleges.' icon_class='fa fa-university' delay='600' shape_class='icon-text-circle' %}
+  </div>
+</div>
+
+<div class="spacing"></div>
+
+<div class="full" style="background: #f5f5f5;">
+  <div class="row">
+    <div class="large-12 columns">
+      {% include section-header.html title="Portfolio" %}
+      <div class="three spacing"></div>
+    </div>
+  </div>
+
+  <div class="mod modGallery">
+    <ul class="gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+      {% for work in page.works %}
+        <li class="{{ work.klass }}">
+          <a href='{{ work.link_to }}'>
+            <img alt="" src="{{ work.image }}" />
+            <div class='overlay'>
+              <div class='thumb-info'>
+                <h3>{{ work.title }}</h3>
+                <p>{{ work.desc }}</p>
+              </div>
+            </div>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+
+{% include our-customers.html %}
 
 <div class='full' style='background: #f5f5f5'>
-    <div class='mod modMasonryGallery'>
-      <ul class='gallery'>
-        {% for work in page.works %}
-          <li class='{{work.class}}'>
-            <a href=''>
-              <img alt="" src="{{work.image}}" />
-              <div class='overlay'>
-                <div class='thumb-info'>
-                  <h3>{{work.title}}</h3>
-                  <p>{{work.desc}}</p>
-                </div>
-              </div>
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-
-    <div class='two spacing'></div>
-
-</div>
-
-<div class='full'>
   <div class='row'>
     <div class='large-12 columns'>
-      <h3>Who We Are</h3>
-      <div class='spacing'></div>
-      <p>
-        Electronut Labs is the creation of <strong>Mahesh Venkitachalam</strong> - programmer,
-        writer, photographer and electronics hacker based in Bengaluru, India.
-        We have a passion for electronics, an eye for design, and are uncompromising about
-        the quality of our products. We are constantly working to bring our innovative ideas in hardware to market.
-      </p>
-
-      <p>
-        Need help with a hardware project or product? Drop us an email at
-        <strong>info@electronut.in</strong>. We offer consulting services on
-        AVR and Nordic nRF BLE - including hardware design, firmware development, prototyping,
-        PCB design/assembly, sourcing and manufacturing. We can help you
-        bring your product to market!
-      </p>
+      {% include section-header.html title="Recent blog posts" %}
       <div class='two spacing'></div>
-
-   </div>
-  </div>
-</div>
-<div class='spacing'></div>
-
-<hr />
-<hr />
-
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <h3>Client Testimonials</h3>
-      <div class='spacing'></div>
-      <p>
-        <em>
-        Electronut Labs delivered excellent results and in a very short time
-        frame. Our original design concept took a last minute turn and left
-        my team and I with a platform we knew very little about…BLE.
-        Electronut labs was able to write us the code we needed using the
-        hardware that was required and got us up and running. Their
-        documentation of the process was clean and neat. The communication was
-        easy even though we are on separate sides of the world. I will be using
-        Electronut Labs in the future for sure.
-        </em>
-      </p>
-      <p>
-        <strong>Carl – Webb Wheel Products</strong>
-      </p>
-
-      <div class='spacing'></div>
-
-      <p>
-        <em>
-        Over the last year, I’ve had Mahesh work on a web site development
-        project for me. I have been very pleased with the results and the
-        quality of communications with him, and resolving issues with project
-        specifications/requirements. He produced results in a timely manner,
-        provided well written documentation, and communicated fluently in English.
-        He also provided support as needed. I am currently planning to engage
-        him on another project to leverage his skills in Python and
-        embedded processor systems development.
-        </em>
-      </p>
-      <p>
-        <strong>Philip - Fliptronics</strong>
-      </p>
-
-      <div class='spacing'></div>
-
-      <p>
-        <em>
-          Electronut Labs has developed a great solution for wireless monitoring of sensors. The integrated solution encompassed interfacing hardware, embedded code and an android app for monitoring the sensor. The entire system was delivered in a compact custom package in a very short time frame. Will definitely engage with them for our hardware projects.
-        </em>
-      </p>
-      <p>
-        <strong>Raviprakash - Hindustan Unilever</strong>
-      </p>
-
     </div>
   </div>
-  <div class='four spacing'></div>
 
+  <div class='row'>
+    {% for post in site.posts %}
+      {% if forloop.index > 3 %}
+        {% break %}
+      {% endif %}
+
+      <div class='large-4 medium-4 columns'>
+        <div class='mod modBlogPost'>
+          {% for image in post.images %}
+            {% unless forloop.first %}
+              {% break %}
+            {% endunless %}
+            <a href="{{post.url}}"><img alt="" src="{{image}}" /></a>
+          {% endfor %}
+          <div class='content'>
+            <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
+            <h4><a href="#">{{post.title}}</a></h4>
+            <p>{{post.excerpt}}</p>
+            <!--
+              <div class="tags">
+                {% for cat in post.categories %}
+                  <a href="#">{{cat | capitalize}}</a>
+                  {% unless forloop.last %}
+                    ,
+                  {% endunless %}
+                {% endfor %}
+              </div>
+            -->
+          </div>
+        </div>
+      </div>
+
+    {% endfor %}
+
+  </div>
+
+
+  <div class='two spacing'></div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <p class='centered-text'>
+        <a class='button' href='blog'>See more posts</a>
+      </p>
+    </div>
+  </div>
+  <div class='two spacing'></div>
 
 </div>
+
+
+

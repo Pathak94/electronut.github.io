@@ -74,13 +74,17 @@ jQuery(document).foundation();
       submitHandler: function(form) {
         $.ajax({
           type: 'POST',
-          url: 'send.php',
+          url: 'https://getsimpleform.com/messages?form_api_token=78a419f6742c33296253c36fcf9b36a7',
           data: $(form).serialize(),
           success: function(data) {
-            if(data.match(/success/)) {
+            console.log("success");
+            
               $(form).trigger('reset');
               $('#thanks').show().fadeOut(5000);
-            }
+            
+          },
+          error: function(data) {
+            console.log("error");
           }
         });
         return false;
@@ -154,11 +158,8 @@ jQuery(document).foundation();
 
       // hightlight nav when scrolling
       var anchors = $('.top-bar-section a', ctx).map(function() {
-        var href = $(this).attr('href');
-        if ( href.match(/^#/) ) {
-          var anchor = $($(this).attr('href'));
-          if(anchor.length) { return anchor; }
-        }
+        var anchor = $($(this).attr('href'));
+        if(anchor.length) { return anchor; }
       });
 
       $(window).scroll(function() {
@@ -748,10 +749,10 @@ jQuery(document).foundation();
   })
 })(Tc.$);
 (function($) {
-  Tc.Module.SectionHeader = Tc.Module.extend({
+  Tc.Module.SectionHeader = Tc.Module.extend({    
     init: function($ctx, sandbox, modId) {
       this._super($ctx, sandbox, modId);
-    },
+    },    
     dependencies: function() {
     },
     onBinding: function() {

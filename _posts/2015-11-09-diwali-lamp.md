@@ -7,6 +7,7 @@ categories: [Electronics]
 comments: true
 modified: 2015-11-09
 thumbnail: images/2015/11/ble-lamp-final.jpg
+images: images/2015/11/ble-lamp-final.jpg
 ---
 
 ![Diwali-BLE-lamp](/images/2015/11/ble-lamp-final.jpg "Diwali BLE Lamp")

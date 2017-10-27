@@ -7,6 +7,7 @@ categories: [Arduino, Circuits]
 comments: true
 modified: 2016-09-02
 thumbnail: images/2014/12/esp8266-arduino-hookup.jpg
+images: images/2014/12/esp8266-arduino-hookup.jpg
 ---
 
 ![ESP8266 v01](/images/2014/12/esp8266-v01.jpg "ESP8266 V01 WiFi Module")
